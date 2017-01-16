@@ -31,6 +31,13 @@ app.post('/api/field', (req, res) => {
     field.image = req.body.image;
     field.city = req.body.city;
     field.category = req.body.category;
+    field.stars = req.body.stars;
+
+    field.save((err, productStore) => {
+        if (err) res.status(500).send({message: `Error al` + 
+            `salvar en la base de datos ${err}`})
+        res.status(200).send({product: productStore});
+    });
 });
 
 app.put('/api/field/:fieldId', (req, res) => {
