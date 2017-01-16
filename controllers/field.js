@@ -1,31 +1,8 @@
 'use strict'
 
-var express = require('express');
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+var Field = require('../models/field');
 
-var Field = require('../models/field')
-
-var app = express();
-
-var port = process.env.PORT || 3000;
-
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-
-app.get('/api/field', (req, res) => {
-    Field.find({}, (err, field) => {
-        if (err) return res.status(500).send({
-            message: `Error al realizar ` +
-            `la petición ${err}`
-        });
-        if (!field) return res.status(404).send({ message: 'El campo no existe' });
-
-        res.status(200).send({ field });
-    });
-});
-
-app.get('/api/field/:fieldId', (req, res) => {
+function getField(req, res) {
     let fieldId = req.params.fieldId;
 
     Field.findById(fieldId, (err, field) => {
@@ -37,9 +14,21 @@ app.get('/api/field/:fieldId', (req, res) => {
 
         res.status(200).send({ field });
     });
-});
+}
 
-app.post('/api/field', (req, res) => {
+function getFields(req, res) {
+    Field.find({}, (err, field) => {
+        if (err) return res.status(500).send({
+            message: `Error al realizar ` +
+            `la petición ${err}`
+        });
+        if (!field) return res.status(404).send({ message: 'El campo no existe' });
+
+        res.status(200).send({ field });
+    });
+}
+
+function saveField(req, res) {
     console.log('POST /api/field');
     console.log(req.body);
 
@@ -58,9 +47,9 @@ app.post('/api/field', (req, res) => {
         })
         res.status(200).send({ field: fieldStored });
     });
-});
+}
 
-app.put('/api/field/:fieldId', (req, res) => {
+function updateField(req, res) {
     let fieldId = req.params.fieldId;
     let update = req.body;
 
@@ -69,11 +58,11 @@ app.put('/api/field/:fieldId', (req, res) => {
             message: `Error al` +
             `actualizar el elemento de la base de datos ${err}`
         });
-        res.status(200).send({field: fieldUpdate});
+        res.status(200).send({ field: fieldUpdate });
     })
-});
+}
 
-app.delete('/api/field/:fieldId', (req, res) => {
+function deleteField(req, res) {
     let fieldId = req.params.fieldId;
 
     Field.findById(fieldId, (err, field) => {
@@ -89,15 +78,12 @@ app.delete('/api/field/:fieldId', (req, res) => {
             res.status(200).send({ message: 'Elemento eliminado' });
         })
     });
-});
+}
 
-mongoose.connect('mongodb://localhost:27017/api', (err, res) => {
-    if (err) {
-        return console.log(`Error al conectar con la base de datos: ${err}`);
-    }
-    console.log('Conexión a la base de datos realizada');
-
-    app.listen(port, () => {
-        console.log(`Servidor iniciado en http://localhost:${port}`);
-    })
-});
+module.exports = {
+    getField,
+    getFields,
+    saveField,
+    updateField,
+    deleteField
+}
