@@ -8,8 +8,8 @@ const FieldSchema = Schema({
     description: String,
     image: String,
     city: String,
-    category: {type: String, enum: ['soccer', 'basketball', 'tennis']},
-    stars: { type: Number, default: 0}
+    category: { type: String, enum: ['soccer', 'basketball', 'tennis'] },
+    stars: { type: Number, default: 0 }
 });
 
 module.exports = mongoose.model('Field', FieldSchema);
