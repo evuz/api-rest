@@ -5,8 +5,9 @@ const User = require('../models/user');
 const services = require('../services');
 
 function signUp(req, res) {
+    const { email } = req.body;
     const user = new User({
-        email: req.body.email,
+        email,
         displayName: req.body.email,
     })
 
@@ -18,7 +19,17 @@ function signUp(req, res) {
 }
 
 function signIn(res, res) {
+    const { email } = req.body;
+    User.find({ email }, (err, user) => {
+        if(err) res.status(500).send({message: err})
+        if(!user) res.status(404).send({message: 'User not found'});
 
+        req.user = user;
+        res.send(200).send({
+            message: 'Succes',
+            token: service.createToken(user)
+        })
+    })
 }
 
 module.exports = {
