@@ -5,20 +5,21 @@ const User = require('../models/user');
 const services = require('../services');
 
 function signUp(req, res) {
-    const { email } = req.body;
+    const { email, password, displayName } = req.body;
     const user = new User({
         email,
-        displayName: req.body.email,
+        displayName,
+        password
     })
 
     user.save((err, userStored) => {
         if (err) res.status(500).send({ message: `Error al crear el usuario ${err}` })
 
-        return res.status(200).send({ token: service.createToken(user) })
+        return res.status(200).send({ token: services.createToken(user) })
     });
 }
 
-function signIn(res, res) {
+function signIn(req, res) {
     const { email } = req.body;
     User.find({ email }, (err, user) => {
         if(err) res.status(500).send({message: err})
