@@ -17,14 +17,14 @@ function getField(req, res) {
 }
 
 function getFields(req, res) {
-    Field.find({}, (err, field) => {
+    Field.find({}, (err, fields) => {
         if (err) return res.status(500).send({
             message: `Error al realizar ` +
             `la petición ${err}`
         });
-        if (!field) return res.status(404).send({ message: 'El campo no existe' });
+        if (!fields) return res.status(404).send({ message: 'El campo no existe' });
 
-        res.status(200).send({ field });
+        res.status(200).send({ fields });
     });
 }
 
