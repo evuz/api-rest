@@ -26,9 +26,9 @@ function signIn(req, res) {
         if(!user) res.status(404).send({message: 'User not found'});
 
         req.user = user;
-        res.send(200).send({
+        res.status(200).send({
             message: 'Succes',
-            token: service.createToken(user)
+            token: services.createToken(user)
         })
     })
 }

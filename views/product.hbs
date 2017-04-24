@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    let productList = document.createElement('ul')
+
+    let myHeaders = new Headers();
+    myHeaders.append('authorization', 'Bearer ' + localStorage.token)
+    fetch('/api/field', {
+        method: 'GET',
+        headers: myHeaders
+    })
+    .then(res => res.json())
+    .then(data => {
+        data.fields.map(field => {
+            let text = document.createTextNode(field.name);
+            let elem = document.createElement('li');
+
+            elem.appendChild(text);
+            productList.appendChild(elem);
+        })
+        document.body.appendChild(productList);
+    })
+</script>
