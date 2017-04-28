@@ -6,13 +6,14 @@ const services = require('../services');
 
 function signUp(req, res) {
     const { email, password, displayName } = req.body;
+    console.log('body: ', req.body); 
     const user = new User({
         email,
         displayName,
         password
     })
     user.save((err, userStored) => {
-        if (err) res.status(500).send({ message: `Error al crear el usuario ${err}` })
+        if (err) return res.status(500).send({ message: `Error al crear el usuario ${err}` })
 
         return res.status(200).send({ token: services.createToken(user) })
     });
@@ -20,6 +21,7 @@ function signUp(req, res) {
 
 function signIn(req, res) {
     const { email, password } = req.body;
+    console.log('body: ', req.body);
     User.findOne({ email }, (err, user) => {
         if(err) return res.status(500).send({message: err})
         if(!user) return res.status(404).send({message: 'User not found'});
