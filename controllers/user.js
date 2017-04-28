@@ -6,7 +6,6 @@ const services = require('../services');
 
 function signUp(req, res) {
     const { email, password, displayName } = req.body;
-    console.log('body: ', req.body); 
     const user = new User({
         email,
         displayName,
@@ -21,7 +20,6 @@ function signUp(req, res) {
 
 function signIn(req, res) {
     const { email, password } = req.body;
-    console.log('body: ', req.body);
     User.findOne({ email }, (err, user) => {
         if(err) return res.status(500).send({message: err})
         if(!user) return res.status(404).send({message: 'User not found'});
