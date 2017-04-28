@@ -9,14 +9,13 @@ const UserSchema = new Schema({
     email: { type: String, unique: true, lowercase: true },
     displayName: String,
     avatar: String,
-    password: { type: String, select: false },
+    password: String,
     signUpDate: { type: Date, default: Date.now() },
     lastLogin: Date
 });
 
 UserSchema.pre('save', function (next) {
     let user = this;
-    console.log(user);
     if (!user.isModified('password')) return next();
 
     bcrypt.genSalt(10, (err, salt) => {
@@ -28,6 +27,11 @@ UserSchema.pre('save', function (next) {
         })
     })
 });
+
+UserSchema.methods.validPassword = function(password) {
+    let user = this;
+    return bcrypt.compareSync(password, user.password);
+}
 
 UserSchema.methods.gravatar = function () {
     if (!this.email) return `https://gravatar.com/avatar/?s=200&d=retro`;

@@ -11,21 +11,19 @@ function signUp(req, res) {
         displayName,
         password
     })
-
     user.save((err, userStored) => {
-        if (err) res.status(500).send({ message: `Error al crear el usuario ${err}` })
+        if (err) return res.status(500).send({ message: `Error al crear el usuario ${err}` })
 
         return res.status(200).send({ token: services.createToken(user) })
     });
 }
 
 function signIn(req, res) {
-    const { email } = req.body;
-    User.find({ email }, (err, user) => {
-        if(err) res.status(500).send({message: err})
-        if(!user) res.status(404).send({message: 'User not found'});
-
-        req.user = user;
+    const { email, password } = req.body;
+    User.findOne({ email }, (err, user) => {
+        if(err) return res.status(500).send({message: err})
+        if(!user) return res.status(404).send({message: 'User not found'});
+        if(!user.validPassword(password)) return res.status(401).send({message: 'Invalid password'})
         res.status(200).send({
             message: 'Succes',
             token: services.createToken(user)
