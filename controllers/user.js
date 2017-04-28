@@ -23,7 +23,7 @@ function signIn(req, res) {
     User.findOne({ email }, (err, user) => {
         if(err) return res.status(500).send({message: err})
         if(!user) return res.status(404).send({message: 'User not found'});
-        if(!user.validPassword(password)) return res.status(500).send({message: 'Invalid password'})
+        if(!user.validPassword(password)) return res.status(401).send({message: 'Invalid password'})
         res.status(200).send({
             message: 'Succes',
             token: services.createToken(user)
