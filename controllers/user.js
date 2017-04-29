@@ -14,7 +14,11 @@ function signUp(req, res) {
     user.save((err, userStored) => {
         if (err) return res.status(500).send({ message: `Error al crear el usuario ${err}` })
 
-        return res.status(200).send({ token: services.createToken(user) })
+        return res.status(200).send({ 
+            displayName,
+            email,
+            token: services.createToken(user) 
+        })
     });
 }
 
@@ -26,6 +30,8 @@ function signIn(req, res) {
         if(!user.validPassword(password)) return res.status(401).send({message: 'Invalid password'})
         res.status(200).send({
             message: 'Succes',
+            displayName: user.displayName,
+            email: user.email,
             token: services.createToken(user)
         })
     })
