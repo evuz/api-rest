@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 const User = require('../models/user');
-const services = require('../services');
+const tokenSrv = require('../services/token');
 
 function signUp(req, res) {
     const { email, password, displayName } = req.body;
@@ -17,7 +17,7 @@ function signUp(req, res) {
         return res.status(200).send({ 
             displayName,
             email,
-            token: services.createToken(user) 
+            token: tokenSrv.createToken(user) 
         })
     });
 }
@@ -32,7 +32,7 @@ function signIn(req, res) {
             message: 'Succes',
             displayName: user.displayName,
             email: user.email,
-            token: services.createToken(user)
+            token: tokenSrv.createToken(user)
         })
     })
 }

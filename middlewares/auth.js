@@ -1,6 +1,6 @@
 'use strict'
 
-const services = require('../services');
+const tokenSrv = require('../services/token');
 
 function isAuth(req, res, next) {
     if (!req.headers.authorization) {
@@ -8,7 +8,7 @@ function isAuth(req, res, next) {
     }
     const token = req.headers.authorization.split(" ")[1];
 
-    services.decodeToken(token)
+    tokenSrv.decodeToken(token)
         .then(response => {
             req.user = response;
             next();
