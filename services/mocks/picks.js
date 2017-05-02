@@ -7,7 +7,7 @@ const picks = [
         "pick": "LJ -6.5 puntos 1Q",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.05,
         "result": "W",
         "bookie": "Betfair",
         "author": "Jesus"
@@ -20,7 +20,7 @@ const picks = [
         "pick": "TA -4.5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Paf",
         "author": "Javier"
@@ -33,7 +33,7 @@ const picks = [
         "pick": "DL -7.0 asistencias",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Paf",
         "author": "Pedro"
@@ -46,7 +46,7 @@ const picks = [
         "pick": "CM -4.0 asistencias",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Paf",
         "author": "Ana"
@@ -58,8 +58,8 @@ const picks = [
         "match": "ATM - RBB",
         "pick": "-6.0 tarjetas",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.8,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -72,7 +72,7 @@ const picks = [
         "pick": "RM +1.0",
         "tipster": "ElProfePicks",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.95,
         "result": "V",
         "bookie": "Bet365",
         "author": "Javier"
@@ -84,8 +84,8 @@ const picks = [
         "match": "CV - DLC",
         "pick": "CV -2.0 corners",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -98,7 +98,7 @@ const picks = [
         "pick": "Tarjeta -21:00",
         "tipster": "ElProfePicks",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -111,7 +111,7 @@ const picks = [
         "pick": "NB -30.5 ptos+reb+asis",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Jesus"
@@ -124,7 +124,7 @@ const picks = [
         "pick": "NB -17 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Javier"
@@ -136,8 +136,8 @@ const picks = [
         "match": "FCB-ATM",
         "pick": "-1.0 gol HT",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.8,
         "result": "V",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -150,7 +150,7 @@ const picks = [
         "pick": "GH -24.5 ptos+reb+asi",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.9,
         "result": "W",
         "bookie": "Betfair",
         "author": "Ana"
@@ -163,7 +163,7 @@ const picks = [
         "pick": "RJ U7,5 asistencias",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.75,
         "result": "W",
         "bookie": "Paf",
         "author": "Jesus"
@@ -176,7 +176,7 @@ const picks = [
         "pick": "JB U7,5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
         "bookie": "WH",
         "author": "Javier"
@@ -189,7 +189,7 @@ const picks = [
         "pick": "GH U19,5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.8,
         "result": "W",
         "bookie": "Paf",
         "author": "Pedro"
@@ -202,7 +202,7 @@ const picks = [
         "pick": "DL U37,5 ptos+reb+asi",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.65,
         "result": "W",
         "bookie": "Paf",
         "author": "Ana"
@@ -215,7 +215,7 @@ const picks = [
         "pick": "MIL+12.5-POR+2.5",
         "tipster": "GreenPicks",
         "stake": null,
-        "odd": 2,
+        "odd": 2.03,
         "result": "L",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -241,7 +241,7 @@ const picks = [
         "pick": "RW U9,5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "V",
         "bookie": "Betfair",
         "author": "Pedro"
@@ -254,7 +254,7 @@ const picks = [
         "pick": "SI U7,5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.95,
         "result": "V",
         "bookie": "Betfair",
         "author": "Ana"
@@ -267,7 +267,7 @@ const picks = [
         "pick": "EF U16.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.75,
         "result": "L",
         "bookie": "Paf",
         "author": "Jesus"
@@ -280,7 +280,7 @@ const picks = [
         "pick": "IM U7.5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
         "author": "Javier"
@@ -293,7 +293,7 @@ const picks = [
         "pick": "IM vs KL",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.05,
         "result": "L",
         "bookie": "Betfair",
         "author": "Pedro"
@@ -306,7 +306,7 @@ const picks = [
         "pick": "AG U10.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Ana"
@@ -319,7 +319,7 @@ const picks = [
         "pick": "AD U15.0 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.75,
         "result": "L",
         "bookie": "Paf",
         "author": "Jesus"
@@ -332,7 +332,7 @@ const picks = [
         "pick": "IM U10.5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
         "author": "Javier"
@@ -344,8 +344,8 @@ const picks = [
         "match": "BDOR-LIV",
         "pick": "Tarjeta -31:00",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -358,7 +358,7 @@ const picks = [
         "pick": "KK U10,5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
         "author": "Ana"
@@ -371,7 +371,7 @@ const picks = [
         "pick": "RR U10.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Jesus"
@@ -384,7 +384,7 @@ const picks = [
         "pick": "SC U6.0 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Paf",
         "author": "Javier"
@@ -397,7 +397,7 @@ const picks = [
         "pick": "TP U10.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Pedro"
@@ -410,7 +410,7 @@ const picks = [
         "pick": "TD U7.0 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
         "bookie": "WH",
         "author": "Ana"
@@ -423,7 +423,7 @@ const picks = [
         "pick": "RSO +1.0",
         "tipster": "ElProfePicks",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.05,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -448,8 +448,8 @@ const picks = [
         "match": "ESP-ATM",
         "pick": "U6.5 tarjetas",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -461,8 +461,8 @@ const picks = [
         "match": "ESP-ATM",
         "pick": "ESP +0.5",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
         "author": "Ana"
@@ -474,8 +474,8 @@ const picks = [
         "match": "RMA-EIB",
         "pick": "RMA -2.0",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.77,
         "result": "W",
         "bookie": "Paf",
         "author": "Jesus"
@@ -488,7 +488,7 @@ const picks = [
         "pick": "AG U9.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "V",
         "bookie": "Betfair",
         "author": "Javier"
@@ -501,7 +501,7 @@ const picks = [
         "pick": "PM O1.5 triples",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.57,
         "result": "L",
         "bookie": "Betfair",
         "author": "Pedro"
@@ -514,7 +514,7 @@ const picks = [
         "pick": "PM O9.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.5,
         "result": "L",
         "bookie": "Betfair",
         "author": "Ana"
@@ -527,7 +527,7 @@ const picks = [
         "pick": "IM U10.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Jesus"
@@ -540,7 +540,7 @@ const picks = [
         "pick": "IM U7.5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Javier"
@@ -553,7 +553,7 @@ const picks = [
         "pick": "IND -4.0",
         "tipster": "Antlombnba",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -565,8 +565,8 @@ const picks = [
         "match": "DAL-MEM+DET-WAS",
         "pick": "DAL+DET -2.0",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.07,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -579,7 +579,7 @@ const picks = [
         "pick": "Fenati delante Binder",
         "tipster": "Nawja",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.88,
         "result": "W",
         "bookie": "Paf",
         "author": "Jesus"
@@ -592,7 +592,7 @@ const picks = [
         "pick": "CR 2 goles + RM gana",
         "tipster": "ElProfePicks",
         "stake": 1,
-        "odd": 3,
+        "odd": 3.25,
         "result": "L",
         "bookie": "WH",
         "author": "Javier"
@@ -605,7 +605,7 @@ const picks = [
         "pick": "KK U11.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.84,
         "result": "W",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -618,7 +618,7 @@ const picks = [
         "pick": "KT U22.0 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.72,
         "result": "W",
         "bookie": "Paf",
         "author": "Ana"
@@ -631,7 +631,7 @@ const picks = [
         "pick": "JB U5.5 asistencias",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.1,
         "result": "L",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -657,7 +657,7 @@ const picks = [
         "pick": "RR U10.0 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Pedro"
@@ -670,7 +670,7 @@ const picks = [
         "pick": "STL O4.5",
         "tipster": "Pickswar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.1,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -683,7 +683,7 @@ const picks = [
         "pick": "EM U13.5 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
         "author": "Jesus"
@@ -696,7 +696,7 @@ const picks = [
         "pick": "NJ U8.0 puntos",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
         "author": "Javier"
@@ -709,7 +709,7 @@ const picks = [
         "pick": "SC U8.0 asistencias",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.65,
         "result": "W",
         "bookie": "Paf",
         "author": "Pedro"
@@ -722,7 +722,7 @@ const picks = [
         "pick": "AB U7.5 rebotes",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
         "author": "Ana"
@@ -735,7 +735,7 @@ const picks = [
         "pick": "KT U6.5 1Q",
         "tipster": "6thman",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.7,
         "result": "W",
         "bookie": "Betfair",
         "author": "Jesus"
@@ -748,7 +748,7 @@ const picks = [
         "pick": "UTA-2.5+MIA-3.0",
         "tipster": "Antlombnba",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.02,
         "result": "W",
         "bookie": "Bet365",
         "author": "Javier"
@@ -760,8 +760,8 @@ const picks = [
         "match": "ORL-CHA+SA-DAL",
         "pick": "CHA+DAL",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.11,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -774,7 +774,7 @@ const picks = [
         "pick": "DET",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.05,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -787,7 +787,7 @@ const picks = [
         "pick": "CHI+ARI",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.98,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -800,7 +800,7 @@ const picks = [
         "pick": "SEA-NY U7.5+CHI-1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.51,
         "result": "W",
         "bookie": "Bet365",
         "author": "Javier"
@@ -825,8 +825,8 @@ const picks = [
         "match": "IND-TOR",
         "pick": "TOR -6.0",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
         "author": "Ana"
@@ -839,7 +839,7 @@ const picks = [
         "pick": "ATL/ATL",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.95,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -851,8 +851,8 @@ const picks = [
         "match": "RMA-GET",
         "pick": "RM -1.5",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.82,
         "result": "W",
         "bookie": "Paf",
         "author": "Javier"
@@ -864,8 +864,8 @@ const picks = [
         "match": "ATH-MAL",
         "pick": "ATH -0.5 goles",
         "tipster": "elProfePicks",
-        "stake": 0,
-        "odd": 2,
+        "stake": 0.5,
+        "odd": 2.62,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -877,8 +877,8 @@ const picks = [
         "match": "ATH-MAL",
         "pick": "Ambos no marcan",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.8,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -903,8 +903,8 @@ const picks = [
         "match": "ATM-GRA",
         "pick": "ATM -1.5",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.92,
         "result": "W",
         "bookie": "Bet365",
         "author": "Javier"
@@ -917,7 +917,7 @@ const picks = [
         "pick": "CLE/CLE+SA/SA",
         "tipster": "Antlombnba",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.74,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -930,7 +930,7 @@ const picks = [
         "pick": "MIA -4.0",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -942,8 +942,8 @@ const picks = [
         "match": "OKC-DAL+GS-HOU",
         "pick": "OKC/OKC+GS/GS",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.77,
         "result": "L",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -955,8 +955,8 @@ const picks = [
         "match": "RB-LP",
         "pick": "U45 puntos tarjeta",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.1,
         "result": "L",
         "bookie": "WH",
         "author": "Javier"
@@ -969,7 +969,7 @@ const picks = [
         "pick": "RMA -5.5",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -982,7 +982,7 @@ const picks = [
         "pick": "RB-LP U4.5t + VAL-EIB U5.5t",
         "tipster": "elProfePicks",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.93,
         "result": "L",
         "bookie": "Bet365",
         "author": "Ana"
@@ -994,8 +994,8 @@ const picks = [
         "match": "VAL-EIB",
         "pick": "U4.5 tarjetas",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -1007,8 +1007,8 @@ const picks = [
         "match": "MIR-NUM",
         "pick": "O10.5 corners",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Bet365",
         "author": "Javier"
@@ -1020,8 +1020,8 @@ const picks = [
         "match": "MIA-CHA",
         "pick": "MIA -4.0",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -1033,8 +1033,8 @@ const picks = [
         "match": "GS-HOU",
         "pick": "GS -4.5",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
         "author": "Ana"
@@ -1046,8 +1046,8 @@ const picks = [
         "match": "TOR-IND",
         "pick": "Fun",
         "tipster": "Antlombnba",
-        "stake": 0,
-        "odd": 5,
+        "stake": 0.5,
+        "odd": 5.5,
         "result": "L",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -1059,8 +1059,8 @@ const picks = [
         "match": "LPA-ESP",
         "pick": "U6,5 tarjetas ",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Bet365",
         "author": "Javier"
@@ -1073,7 +1073,7 @@ const picks = [
         "pick": "ATL",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.35,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -1086,7 +1086,7 @@ const picks = [
         "pick": "CLE+SA/SA",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.19,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -1111,8 +1111,8 @@ const picks = [
         "match": "FCB-SPO",
         "pick": "U5,5 tarjetas ",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.85,
         "result": "W",
         "bookie": "Bet365",
         "author": "Javier"
@@ -1124,8 +1124,8 @@ const picks = [
         "match": "FCB-SPO",
         "pick": "FCB -1,5 HT",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -1137,8 +1137,8 @@ const picks = [
         "match": "ATM-MAL",
         "pick": "ATM + MAL 0 goles",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.75,
         "result": "W",
         "bookie": "WH",
         "author": "Ana"
@@ -1151,7 +1151,7 @@ const picks = [
         "pick": "U6,5 tarjetas ",
         "tipster": "elProfePicks",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.8,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -1163,8 +1163,8 @@ const picks = [
         "match": "RMA-MC",
         "pick": "U4.5 tarjetas",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.78,
         "result": "W",
         "bookie": "Bet365",
         "author": "Javier"
@@ -1177,7 +1177,7 @@ const picks = [
         "pick": "U2.0 goles",
         "tipster": "elProfePicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.03,
         "result": "W",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -1202,8 +1202,8 @@ const picks = [
         "match": "ATL-BOS+TOR-IND",
         "pick": "TOR-2.5+ATL-2.0",
         "tipster": "Antlombnba",
-        "stake": 2,
-        "odd": 2,
+        "stake": 2.5,
+        "odd": 2.03,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -1215,8 +1215,8 @@ const picks = [
         "match": "Combinada",
         "pick": "Cachin+Daniell/Sitak",
         "tipster": "ATPPicks",
-        "stake": 2,
-        "odd": 1,
+        "stake": 2.5,
+        "odd": 1.88,
         "result": "V",
         "bookie": "Bet365",
         "author": "Javier"
@@ -1229,7 +1229,7 @@ const picks = [
         "pick": "Edmund",
         "tipster": "ATPPicks",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.5,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -1241,8 +1241,8 @@ const picks = [
         "match": "MIA-CHA",
         "pick": "MIA/MIA",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.86,
         "result": "L",
         "bookie": "Bet365",
         "author": "Ana"
@@ -1255,7 +1255,7 @@ const picks = [
         "pick": "POR -3.0",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -1268,7 +1268,7 @@ const picks = [
         "pick": "EST U18,5 asistencias",
         "tipster": "Pelunaton",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.85,
         "result": "W",
         "bookie": "WH",
         "author": "Javier"
@@ -1281,7 +1281,7 @@ const picks = [
         "pick": "JC O18,5 puntos",
         "tipster": "Pelunaton",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
         "bookie": "WH",
         "author": "Pedro"
@@ -1294,7 +1294,7 @@ const picks = [
         "pick": "MP U10,5 puntos",
         "tipster": "Pelunaton",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
         "bookie": "WH",
         "author": "Ana"
@@ -1306,8 +1306,8 @@ const picks = [
         "match": "VIL-LIV",
         "pick": "O4.0 tarjetas",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.85,
         "result": "L",
         "bookie": "Bet365",
         "author": "Jesus"
@@ -1320,7 +1320,7 @@ const picks = [
         "pick": "Marach/Martin 2-0",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.2,
         "result": "W",
         "bookie": "WH",
         "author": "Javier"
@@ -1333,7 +1333,7 @@ const picks = [
         "pick": "Gana Krunic",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.66,
         "result": "L",
         "bookie": "WH",
         "author": "Pedro"
@@ -1346,7 +1346,7 @@ const picks = [
         "pick": "ATL -2.0",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
         "author": "Ana"
@@ -1358,8 +1358,8 @@ const picks = [
         "match": "ATL-BOS",
         "pick": "AH U15.0 puntos",
         "tipster": "Pelunaton",
-        "stake": 0,
-        "odd": 1,
+        "stake": 0.5,
+        "odd": 1.83,
         "result": "V",
         "bookie": "WH",
         "author": "Jesus"
@@ -1371,8 +1371,8 @@ const picks = [
         "match": "ATL-BOS",
         "pick": "IT U5.5 asistencias",
         "tipster": "Pelunaton",
-        "stake": 0,
-        "odd": 1,
+        "stake": 0.5,
+        "odd": 1.83,
         "result": "L",
         "bookie": "Betfair",
         "author": "Javier"
@@ -1384,8 +1384,8 @@ const picks = [
         "match": "MIA-CHA",
         "pick": "CHA -3.0",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
         "author": "Pedro"
@@ -1398,7 +1398,7 @@ const picks = [
         "pick": "DW O19.5 puntos",
         "tipster": "Pelunaton",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
         "bookie": "Betfair",
         "author": "Ana"
@@ -1411,7 +1411,7 @@ const picks = [
         "pick": "DJ O14.0 rebotes",
         "tipster": "Pelunaton",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
         "bookie": "WH",
         "author": "Jesus"
@@ -1424,7 +1424,7 @@ const picks = [
         "pick": "U20 juegos",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.37,
         "result": "W",
         "bookie": "Bet365",
         "author": "Javier"
@@ -1436,7 +1436,7 @@ const picks = [
         "match": "Carreño-Paire",
         "pick": "Gana Carreño",
         "tipster": "ATPPicks",
-        "stake": 2,
+        "stake": 2.5,
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
@@ -1449,7 +1449,7 @@ const picks = [
         "match": "RAY-ATM",
         "pick": "RAY O3,5 corners",
         "tipster": "elProfePicks",
-        "stake": 1,
+        "stake": 1.5,
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
@@ -1462,11 +1462,11 @@ const picks = [
         "match": "DEP-GET",
         "pick": "GET +0,5",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "1,24",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462053600000",
@@ -1475,11 +1475,11 @@ const picks = [
         "match": "ATH-CEL",
         "pick": "CEL +0,5",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.08,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462053600000",
@@ -1488,11 +1488,11 @@ const picks = [
         "match": "VAL-VIL",
         "pick": "VAL -1.0 corners",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.9,
         "result": "W",
-        "bookie": "1,35",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462053600000",
@@ -1502,10 +1502,10 @@ const picks = [
         "pick": "SPO+VAL/X",
         "tipster": "elProfePicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.13,
         "result": "L",
-        "bookie": "-2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462140000000",
@@ -1514,11 +1514,11 @@ const picks = [
         "match": "MAL-LEV",
         "pick": "MAL",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.2,
         "result": "W",
-        "bookie": "1,8",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462140000000",
@@ -1528,10 +1528,10 @@ const picks = [
         "pick": "DG O6,5 asistencias",
         "tipster": "Otros",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.8,
         "result": "W",
-        "bookie": "0,8",
-        "author": "Kirolbet"
+        "bookie": "Kirolbet",
+        "author": "Javier"
     },
     {
         "date": "1462140000000",
@@ -1541,10 +1541,10 @@ const picks = [
         "pick": "GS/GS+MIA/MIA+TOR/TOR",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 5,
+        "odd": 5.65,
         "result": "W",
-        "bookie": "4,65",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462053600000",
@@ -1554,10 +1554,10 @@ const picks = [
         "pick": "MIN+CIN",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.75,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462053600000",
@@ -1567,10 +1567,10 @@ const picks = [
         "pick": "OAK -1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.3,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462053600000",
@@ -1580,10 +1580,10 @@ const picks = [
         "pick": "TEX+CLE-PHI U7.0",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.06,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462140000000",
@@ -1592,11 +1592,11 @@ const picks = [
         "match": "Keys-Strycova",
         "pick": "Strycova",
         "tipster": "ATPPicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.72,
         "result": "L",
-        "bookie": "-0,75",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Ana"
     },
     {
         "date": "1462226400000",
@@ -1606,10 +1606,10 @@ const picks = [
         "pick": "CLE -2.5+SA -2.5",
         "tipster": "Antlombnba",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.96,
         "result": "L",
-        "bookie": "-2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462226400000",
@@ -1619,10 +1619,10 @@ const picks = [
         "pick": "CHI",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.05,
         "result": "W",
-        "bookie": "1,05",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462226400000",
@@ -1632,10 +1632,10 @@ const picks = [
         "pick": "SF -1.5",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.1,
         "result": "W",
-        "bookie": "1,1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462226400000",
@@ -1645,10 +1645,10 @@ const picks = [
         "pick": "PHI+1.5+HOU",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.49,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462226400000",
@@ -1658,10 +1658,10 @@ const picks = [
         "pick": "TEX O4.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.2,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462226400000",
@@ -1671,10 +1671,10 @@ const picks = [
         "pick": "COL+CIN-SF O7.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.22,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462226400000",
@@ -1684,10 +1684,10 @@ const picks = [
         "pick": "Monfils 2-0",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.63,
         "result": "W",
-        "bookie": "0,63",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Javier"
     },
     {
         "date": "1462226400000",
@@ -1696,11 +1696,11 @@ const picks = [
         "match": "Kudla-Karlovic",
         "pick": "O10.5 1S",
         "tipster": "ATPPicks",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.2,
         "result": "W",
-        "bookie": "0,9",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462226400000",
@@ -1712,8 +1712,8 @@ const picks = [
         "stake": 2,
         "odd": 2,
         "result": "W",
-        "bookie": "1",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Pedro"
     },
     {
         "date": "1462572000000",
@@ -1723,10 +1723,10 @@ const picks = [
         "pick": "RAY/X+GRA/X",
         "tipster": "elProfePicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.12,
         "result": "L",
-        "bookie": "-2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462572000000",
@@ -1735,11 +1735,11 @@ const picks = [
         "match": "CEL-MAL",
         "pick": "U2.5 goles",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.25,
         "result": "V",
-        "bookie": "-0,15",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Javier"
     },
     {
         "date": "1462312800000",
@@ -1748,11 +1748,11 @@ const picks = [
         "match": "RMA-MC",
         "pick": "MC O3.5 corners",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.97,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Ana"
     },
     {
         "date": "1462312800000",
@@ -1762,10 +1762,10 @@ const picks = [
         "pick": "JV O5,5 SO",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.1,
         "result": "L",
-        "bookie": "-1",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Pedro"
     },
     {
         "date": "1462312800000",
@@ -1775,10 +1775,10 @@ const picks = [
         "pick": "DET O4.0",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.1,
         "result": "L",
-        "bookie": "-1",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Jesus"
     },
     {
         "date": "1462312800000",
@@ -1788,10 +1788,10 @@ const picks = [
         "pick": "MIN",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.15,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462312800000",
@@ -1801,10 +1801,10 @@ const picks = [
         "pick": "TOR -1,5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.25,
         "result": "W",
-        "bookie": "1,25",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462312800000",
@@ -1814,10 +1814,10 @@ const picks = [
         "pick": "SF+CHI",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.72,
         "result": "W",
-        "bookie": "2,58",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462399200000",
@@ -1827,10 +1827,10 @@ const picks = [
         "pick": "SEA/SEA",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.45,
         "result": "W",
-        "bookie": "1,45",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462399200000",
@@ -1840,10 +1840,10 @@ const picks = [
         "pick": "BAL+HOU O4.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.69,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462399200000",
@@ -1853,10 +1853,10 @@ const picks = [
         "pick": "NYM -1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.05,
         "result": "W",
-        "bookie": "1,05",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462399200000",
@@ -1866,10 +1866,10 @@ const picks = [
         "pick": "LA+WASO3.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.86,
         "result": "W",
-        "bookie": "2,79",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462312800000",
@@ -1878,11 +1878,11 @@ const picks = [
         "match": "Dobles",
         "pick": "Kontinen/Peers 2-0",
         "tipster": "ATPPicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.72,
         "result": "L",
-        "bookie": "-0,75",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462312800000",
@@ -1892,10 +1892,10 @@ const picks = [
         "pick": "Del Potro 1S + partido",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.9,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462399200000",
@@ -1904,11 +1904,11 @@ const picks = [
         "match": "Berdych-Ferrer",
         "pick": "Berdych",
         "tipster": "ATPPicks",
-        "stake": 3,
-        "odd": 1,
+        "stake": 3.5,
+        "odd": 1.73,
         "result": "W",
-        "bookie": "1,28",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Ana"
     },
     {
         "date": "1462485600000",
@@ -1918,10 +1918,10 @@ const picks = [
         "pick": "SD U2.5",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.05,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462485600000",
@@ -1931,10 +1931,10 @@ const picks = [
         "pick": "WAS-CHI U8.5+NYY U3.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.21,
         "result": "W",
-        "bookie": "2,21",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462485600000",
@@ -1944,10 +1944,10 @@ const picks = [
         "pick": "MIA+BOS-CHI U8.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 3,
+        "odd": 3.28,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462485600000",
@@ -1959,8 +1959,8 @@ const picks = [
         "stake": 3,
         "odd": 2,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462485600000",
@@ -1969,11 +1969,11 @@ const picks = [
         "match": "MIA-TOR",
         "pick": "TOR/TOR",
         "tipster": "Antlombnba",
-        "stake": 1,
+        "stake": 1.5,
         "odd": 2,
         "result": "W",
-        "bookie": "1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462485600000",
@@ -1983,10 +1983,10 @@ const picks = [
         "pick": "DW U30.5 pto+reb+asi",
         "tipster": "Otros",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "0,83",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462485600000",
@@ -1996,10 +1996,10 @@ const picks = [
         "pick": "JV O13.0 puntos",
         "tipster": "Otros",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "0,83",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Javier"
     },
     {
         "date": "1462485600000",
@@ -2009,10 +2009,10 @@ const picks = [
         "pick": "WAS+U8,5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.64,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462572000000",
@@ -2022,10 +2022,10 @@ const picks = [
         "pick": "CHI+SEA",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.21,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462572000000",
@@ -2035,10 +2035,10 @@ const picks = [
         "pick": "TBJ -1.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.55,
         "result": "W",
-        "bookie": "2,33",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462572000000",
@@ -2048,10 +2048,10 @@ const picks = [
         "pick": "O7,5",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.05,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462572000000",
@@ -2061,10 +2061,10 @@ const picks = [
         "pick": "SA+CLE",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 3,
+        "odd": 3.03,
         "result": "W",
-        "bookie": "2,03",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462572000000",
@@ -2074,10 +2074,10 @@ const picks = [
         "pick": "PM O9,5 rebotes",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.72,
         "result": "L",
-        "bookie": "-1",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Pedro"
     },
     {
         "date": "1462658400000",
@@ -2087,10 +2087,10 @@ const picks = [
         "pick": "U45 puntos tarjeta",
         "tipster": "ElProfePicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.45,
         "result": "W",
-        "bookie": "2,9",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Jesus"
     },
     {
         "date": "1462658400000",
@@ -2100,10 +2100,10 @@ const picks = [
         "pick": "ARI-ATL O7.5+NYM",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.64,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462572000000",
@@ -2113,10 +2113,10 @@ const picks = [
         "pick": "BOS+KCR-CLE O8.0",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 3,
+        "odd": 3.21,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462572000000",
@@ -2126,10 +2126,10 @@ const picks = [
         "pick": "SF -1.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.3,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462572000000",
@@ -2139,10 +2139,10 @@ const picks = [
         "pick": "PIT",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.2,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462658400000",
@@ -2154,8 +2154,8 @@ const picks = [
         "stake": 1,
         "odd": 6,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462658400000",
@@ -2164,11 +2164,11 @@ const picks = [
         "match": "CEL-MAL",
         "pick": "U6.0 tarjetas",
         "tipster": "ElProfePicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.8,
         "result": "W",
-        "bookie": "1,2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462658400000",
@@ -2178,10 +2178,10 @@ const picks = [
         "pick": "X",
         "tipster": "ElProfePicks",
         "stake": 1,
-        "odd": 3,
+        "odd": 3.25,
         "result": "L",
-        "bookie": "-1",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Pedro"
     },
     {
         "date": "1462658400000",
@@ -2190,11 +2190,11 @@ const picks = [
         "match": "LeMans",
         "pick": "EsP>Ped",
         "tipster": "Nawja",
-        "stake": 0,
-        "odd": 2,
+        "stake": 0.5,
+        "odd": 2.1,
         "result": "L",
-        "bookie": "-0,5",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Jesus"
     },
     {
         "date": "1462658400000",
@@ -2203,11 +2203,11 @@ const picks = [
         "match": "VIL-DEP",
         "pick": "DEP",
         "tipster": "ElProfePicks",
-        "stake": 0,
-        "odd": 3,
+        "stake": 0.5,
+        "odd": 3.2,
         "result": "W",
-        "bookie": "1,1",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Javier"
     },
     {
         "date": "1462658400000",
@@ -2217,10 +2217,10 @@ const picks = [
         "pick": "SEA",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.4,
         "result": "W",
-        "bookie": "1,4",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Ana"
     },
     {
         "date": "1462658400000",
@@ -2232,8 +2232,8 @@ const picks = [
         "stake": 1,
         "odd": 2,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462658400000",
@@ -2243,10 +2243,10 @@ const picks = [
         "pick": "CHI+MIA-PHI O8,5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.74,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462658400000",
@@ -2256,10 +2256,10 @@ const picks = [
         "pick": "U18,5",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462658400000",
@@ -2269,10 +2269,10 @@ const picks = [
         "pick": "Monteiro",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.25,
         "result": "W",
-        "bookie": "1,25",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462658400000",
@@ -2281,11 +2281,11 @@ const picks = [
         "match": "LeMans",
         "pick": "1º Viñ Gr.B",
         "tipster": "Nawja",
-        "stake": 0,
-        "odd": 1,
+        "stake": 0.5,
+        "odd": 1.9,
         "result": "W",
-        "bookie": "0,45",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462658400000",
@@ -2294,11 +2294,11 @@ const picks = [
         "match": "LeMans",
         "pick": "Ped Top 6: No",
         "tipster": "Nawja",
-        "stake": 0,
-        "odd": 2,
+        "stake": 0.5,
+        "odd": 2.5,
         "result": "L",
-        "bookie": "-0,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462658400000",
@@ -2308,10 +2308,10 @@ const picks = [
         "pick": "ARI+BAL",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.91,
         "result": "W",
-        "bookie": "2,87",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462658400000",
@@ -2321,10 +2321,10 @@ const picks = [
         "pick": "TOR -1.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.05,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462658400000",
@@ -2334,10 +2334,10 @@ const picks = [
         "pick": "CHI -1.5+NYM",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.63,
         "result": "W",
-        "bookie": "2,63",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462658400000",
@@ -2347,10 +2347,10 @@ const picks = [
         "pick": "ATL -2.0",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 3,
+        "odd": 3.3,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462658400000",
@@ -2360,10 +2360,10 @@ const picks = [
         "pick": "KL O31,5 pto+así+reb",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "0,83",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462744800000",
@@ -2372,11 +2372,11 @@ const picks = [
         "match": "OKC-SA",
         "pick": "SA O9,5 rebotes",
         "tipster": "Txomin",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.95,
         "result": "W",
-        "bookie": "1,43",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Ana"
     },
     {
         "date": "1462744800000",
@@ -2385,11 +2385,11 @@ const picks = [
         "match": "Karlovic-Gulbis",
         "pick": "Gulbis -2",
         "tipster": "ATPPicks",
-        "stake": 2,
+        "stake": 2.5,
         "odd": 2,
         "result": "W",
-        "bookie": "1,25",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462744800000",
@@ -2399,10 +2399,10 @@ const picks = [
         "pick": "Puig 1S + Petkovic 1S",
         "tipster": "ATPPicks",
         "stake": 3,
-        "odd": 1,
+        "odd": 1.75,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Jesus"
     },
     {
         "date": "1462831200000",
@@ -2411,11 +2411,11 @@ const picks = [
         "match": "MIA-TOR",
         "pick": "GD O24,5 pto+así+reb",
         "tipster": "Otros",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "1,25",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462831200000",
@@ -2425,10 +2425,10 @@ const picks = [
         "pick": "TEX+OAK +1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.84,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462831200000",
@@ -2438,10 +2438,10 @@ const picks = [
         "pick": "NYM+MIL-MIA O7.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.34,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462831200000",
@@ -2451,10 +2451,10 @@ const picks = [
         "pick": "TB O3,5+BAL U4,5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.31,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462831200000",
@@ -2464,10 +2464,10 @@ const picks = [
         "pick": "TOR O4,5",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.1,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462831200000",
@@ -2477,10 +2477,10 @@ const picks = [
         "pick": "TB",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.1,
         "result": "L",
-        "bookie": "-1",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Ana"
     },
     {
         "date": "1462831200000",
@@ -2490,10 +2490,10 @@ const picks = [
         "pick": "MIA -4.5",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.9,
         "result": "W",
-        "bookie": "1,8",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Pedro"
     },
     {
         "date": "1462831200000",
@@ -2505,8 +2505,8 @@ const picks = [
         "stake": 1,
         "odd": 2,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462831200000",
@@ -2516,10 +2516,10 @@ const picks = [
         "pick": "LD O6,5 rebotes",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.1,
         "result": "W",
-        "bookie": "1,1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462831200000",
@@ -2529,10 +2529,10 @@ const picks = [
         "pick": "MP U10,5 rebotes",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.95,
         "result": "L",
-        "bookie": "-1",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Ana"
     },
     {
         "date": "1463263200000",
@@ -2542,10 +2542,10 @@ const picks = [
         "pick": "SPO/SPO",
         "tipster": "elProfePicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.08,
         "result": "W",
-        "bookie": "2,16",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Pedro"
     },
     {
         "date": "1462917600000",
@@ -2554,11 +2554,11 @@ const picks = [
         "match": "OKC-SA",
         "pick": "SA/SA",
         "tipster": "Antlombnba",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.71,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463176800000",
@@ -2570,8 +2570,8 @@ const picks = [
         "stake": 1,
         "odd": 2,
         "result": "W",
-        "bookie": "1",
-        "author": "Kirolbet"
+        "bookie": "Kirolbet",
+        "author": "Javier"
     },
     {
         "date": "1462917600000",
@@ -2581,10 +2581,10 @@ const picks = [
         "pick": "U200 ptos",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "1,66",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462917600000",
@@ -2593,11 +2593,11 @@ const picks = [
         "match": "OKC-SA",
         "pick": "RW U10.5 asistencias",
         "tipster": "Otros",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.85,
         "result": "W",
-        "bookie": "1,28",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Pedro"
     },
     {
         "date": "1462917600000",
@@ -2607,10 +2607,10 @@ const picks = [
         "pick": "TP O21.5 así+ptos+reb",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462917600000",
@@ -2620,10 +2620,10 @@ const picks = [
         "pick": "WAS+PIT",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.7,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1462917600000",
@@ -2633,10 +2633,10 @@ const picks = [
         "pick": "MIA -1.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.25,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1462917600000",
@@ -2646,10 +2646,10 @@ const picks = [
         "pick": "TOR-BAL",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.22,
         "result": "W",
-        "bookie": "2,22",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1462917600000",
@@ -2659,10 +2659,10 @@ const picks = [
         "pick": "MIL U3.5",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.95,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1462917600000",
@@ -2671,11 +2671,11 @@ const picks = [
         "match": "Kuznetsova-Stosur",
         "pick": "Kuznetsova",
         "tipster": "ATPPicks",
-        "stake": 2,
-        "odd": 1,
+        "stake": 2.5,
+        "odd": 1.72,
         "result": "W",
-        "bookie": "0,9",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Javier"
     },
     {
         "date": "1462917600000",
@@ -2685,10 +2685,10 @@ const picks = [
         "pick": "Kyrgios",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.72,
         "result": "W",
-        "bookie": "0,72",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Ana"
     },
     {
         "date": "1462917600000",
@@ -2698,10 +2698,10 @@ const picks = [
         "pick": "Resultado tras 4 juegos: 2-2",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.95,
         "result": "W",
-        "bookie": "0,95",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Pedro"
     },
     {
         "date": "1462917600000",
@@ -2711,10 +2711,10 @@ const picks = [
         "pick": "BAL",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.87,
         "result": "W",
-        "bookie": "0,87",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Jesus"
     },
     {
         "date": "1463004000000",
@@ -2724,10 +2724,10 @@ const picks = [
         "pick": "PHI",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.97,
         "result": "L",
-        "bookie": "-1",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Javier"
     },
     {
         "date": "1463004000000",
@@ -2739,8 +2739,8 @@ const picks = [
         "stake": 3,
         "odd": 2,
         "result": "W",
-        "bookie": "1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463004000000",
@@ -2750,10 +2750,10 @@ const picks = [
         "pick": "POR +13.0",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.95,
         "result": "W",
-        "bookie": "1,9",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463004000000",
@@ -2763,10 +2763,10 @@ const picks = [
         "pick": "DG O35.5 ptos+reb+asi",
         "tipster": "Otros",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463004000000",
@@ -2776,10 +2776,10 @@ const picks = [
         "pick": "Pouille +4",
         "tipster": "ATPPicks",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.37,
         "result": "W",
-        "bookie": "0,69",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463090400000",
@@ -2789,10 +2789,10 @@ const picks = [
         "pick": "BOS-HOU O8.0 + PHI",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 3,
+        "odd": 3.24,
         "result": "W",
-        "bookie": "3,36",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463090400000",
@@ -2802,10 +2802,10 @@ const picks = [
         "pick": "ARI -1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.95,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463090400000",
@@ -2815,10 +2815,10 @@ const picks = [
         "pick": "IK U6.0 SO",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.91,
         "result": "V",
-        "bookie": "0",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Jesus"
     },
     {
         "date": "1463090400000",
@@ -2830,8 +2830,8 @@ const picks = [
         "stake": 1,
         "odd": 2,
         "result": "W",
-        "bookie": "1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463090400000",
@@ -2841,10 +2841,10 @@ const picks = [
         "pick": "SA O20.5 ptos+reb",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.9,
         "result": "W",
-        "bookie": "0,9",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Ana"
     },
     {
         "date": "1463090400000",
@@ -2854,10 +2854,10 @@ const picks = [
         "pick": "DG O8.0 puntos",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "0,83",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Pedro"
     },
     {
         "date": "1463090400000",
@@ -2867,10 +2867,10 @@ const picks = [
         "pick": "SA",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.8,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463090400000",
@@ -2880,10 +2880,10 @@ const picks = [
         "pick": "PIT",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.1,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463176800000",
@@ -2893,10 +2893,10 @@ const picks = [
         "pick": "WAS+KC",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.46,
         "result": "W",
-        "bookie": "2,2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463176800000",
@@ -2906,10 +2906,10 @@ const picks = [
         "pick": "CLE -1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.5,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463176800000",
@@ -2919,10 +2919,10 @@ const picks = [
         "pick": "TOR",
         "tipster": "Antlombnba",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.6,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463263200000",
@@ -2932,10 +2932,10 @@ const picks = [
         "pick": "Vettle Podio",
         "tipster": "Nawja",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.53,
         "result": "W",
-        "bookie": "1,06",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Javier"
     },
     {
         "date": "1463176800000",
@@ -2944,11 +2944,11 @@ const picks = [
         "match": "KC-NYY",
         "pick": "CT U5.0 SO",
         "tipster": "AllCapper",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.91,
         "result": "W",
-        "bookie": "1,37",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Ana"
     },
     {
         "date": "1463176800000",
@@ -2958,10 +2958,10 @@ const picks = [
         "pick": "ATH + U3.5 goles",
         "tipster": "elProfePicks",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.5,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463263200000",
@@ -2970,11 +2970,11 @@ const picks = [
         "match": "ESP-EIB",
         "pick": "U2.5 goles",
         "tipster": "elProfePicks",
-        "stake": 1,
-        "odd": 2,
+        "stake": 1.5,
+        "odd": 2.1,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463263200000",
@@ -2983,11 +2983,11 @@ const picks = [
         "match": "MAL-LPA",
         "pick": "U4.5 tarjetas",
         "tipster": "elProfePicks",
-        "stake": 2,
-        "odd": 1,
+        "stake": 2.5,
+        "odd": 1.7,
         "result": "W",
-        "bookie": "1,75",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Javier"
     },
     {
         "date": "1463263200000",
@@ -2996,11 +2996,11 @@ const picks = [
         "match": "Combinada",
         "pick": "Combinada tarjetas",
         "tipster": "elProfePicks",
-        "stake": 0,
-        "odd": 6,
+        "stake": 0.5,
+        "odd": 6.62,
         "result": "L",
-        "bookie": "-0,5",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Ana"
     },
     {
         "date": "1463263200000",
@@ -3010,10 +3010,10 @@ const picks = [
         "pick": "TBR+ CIN-PHI O7,5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 3,
+        "odd": 3.16,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463176800000",
@@ -3023,10 +3023,10 @@ const picks = [
         "pick": "CHI -1.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.15,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463263200000",
@@ -3036,10 +3036,10 @@ const picks = [
         "pick": "NYM+ATL-KC U8.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.24,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463263200000",
@@ -3049,10 +3049,10 @@ const picks = [
         "pick": "ARI O4.5",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463263200000",
@@ -3062,10 +3062,10 @@ const picks = [
         "pick": "NYM+LAD",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.92,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463263200000",
@@ -3075,10 +3075,10 @@ const picks = [
         "pick": "SEA -1.5",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.45,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463263200000",
@@ -3088,10 +3088,10 @@ const picks = [
         "pick": "CHI+TB O3,5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.74,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463263200000",
@@ -3100,11 +3100,11 @@ const picks = [
         "match": "TOR-MIA",
         "pick": "LD O7.0 rebotes",
         "tipster": "Otros",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.72,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Ana"
     },
     {
         "date": "1463349600000",
@@ -3114,10 +3114,10 @@ const picks = [
         "pick": "AW O4,5 SO",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.91,
         "result": "W",
-        "bookie": "0,91",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Pedro"
     },
     {
         "date": "1463263200000",
@@ -3129,8 +3129,8 @@ const picks = [
         "stake": 1,
         "odd": 2,
         "result": "W",
-        "bookie": "1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463436000000",
@@ -3140,10 +3140,10 @@ const picks = [
         "pick": "MIA+OAK-TEX O8.0",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.14,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463349600000",
@@ -3152,11 +3152,11 @@ const picks = [
         "match": "Kovalic-Golubev",
         "pick": "U19.5",
         "tipster": "ATPPicks",
-        "stake": 1,
-        "odd": 1,
+        "stake": 1.5,
+        "odd": 1.9,
         "result": "L",
-        "bookie": "-0,75",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463436000000",
@@ -3166,10 +3166,10 @@ const picks = [
         "pick": "TOR+LAD",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.71,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1464645600000",
@@ -3179,10 +3179,10 @@ const picks = [
         "pick": "LJ más asistencias en la serie",
         "tipster": "Otros",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.75,
         "result": "W",
-        "bookie": "0,75",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Jesus"
     },
     {
         "date": "1463436000000",
@@ -3192,10 +3192,10 @@ const picks = [
         "pick": "GS -8.0",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.95,
         "result": "L",
-        "bookie": "-2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463436000000",
@@ -3205,10 +3205,10 @@ const picks = [
         "pick": "AI O13.5 ptos+reb+asi",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.71,
         "result": "W",
-        "bookie": "0,71",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463436000000",
@@ -3218,10 +3218,10 @@ const picks = [
         "pick": "RW O36.5 ptos+así",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "0,83",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Pedro"
     },
     {
         "date": "1464645600000",
@@ -3230,11 +3230,11 @@ const picks = [
         "match": "España",
         "pick": "Aduriz será convocado",
         "tipster": "elProfePicks",
-        "stake": 2,
-        "odd": 1,
+        "stake": 2.5,
+        "odd": 1.65,
         "result": "W",
-        "bookie": "1,63",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Jesus"
     },
     {
         "date": "1463436000000",
@@ -3246,8 +3246,8 @@ const picks = [
         "stake": 2,
         "odd": 2,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463436000000",
@@ -3257,10 +3257,10 @@ const picks = [
         "pick": "Estrella",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.5,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463522400000",
@@ -3270,10 +3270,10 @@ const picks = [
         "pick": "LAD -1.5+SF",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.76,
         "result": "W",
-        "bookie": "1,76",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463522400000",
@@ -3283,10 +3283,10 @@ const picks = [
         "pick": "CHI+CLE-1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.02,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463522400000",
@@ -3296,10 +3296,10 @@ const picks = [
         "pick": "PIT -1.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.25,
         "result": "W",
-        "bookie": "1,25",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463522400000",
@@ -3309,10 +3309,10 @@ const picks = [
         "pick": "Carrera a 4: LAD",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.95,
         "result": "W",
-        "bookie": "0,95",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463522400000",
@@ -3321,11 +3321,11 @@ const picks = [
         "match": "CLE-TOR",
         "pick": "BB doble-doble",
         "tipster": "Otros",
-        "stake": 0,
-        "odd": 2,
+        "stake": 0.75,
+        "odd": 2.6,
         "result": "L",
-        "bookie": "-0,75",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463522400000",
@@ -3335,10 +3335,10 @@ const picks = [
         "pick": "TOR+11.0",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.9,
         "result": "L",
-        "bookie": "-2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463522400000",
@@ -3348,10 +3348,10 @@ const picks = [
         "pick": "KL O28,5 ptos+reb",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.8,
         "result": "L",
-        "bookie": "-2",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Javier"
     },
     {
         "date": "1463522400000",
@@ -3361,10 +3361,10 @@ const picks = [
         "pick": "KL O33,5 ptos+reb+asis",
         "tipster": "Txomin",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.75,
         "result": "L",
-        "bookie": "-1",
-        "author": "Betfair"
+        "bookie": "Betfair",
+        "author": "Ana"
     },
     {
         "date": "1463522400000",
@@ -3374,10 +3374,10 @@ const picks = [
         "pick": "Lindell",
         "tipster": "ATPPicks",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.75,
         "result": "L",
-        "bookie": "-0,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463522400000",
@@ -3387,10 +3387,10 @@ const picks = [
         "pick": "Rosoll +2.5",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.83,
         "result": "W",
-        "bookie": "0,83",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463522400000",
@@ -3400,10 +3400,10 @@ const picks = [
         "pick": "PH -1.5",
         "tipster": "ATPPicks",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.83,
         "result": "L",
-        "bookie": "-1",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Javier"
     },
     {
         "date": "1463522400000",
@@ -3413,10 +3413,10 @@ const picks = [
         "pick": "SEV",
         "tipster": "elProfePicks",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.3,
         "result": "W",
-        "bookie": "1,3",
-        "author": "Paf"
+        "bookie": "Paf",
+        "author": "Ana"
     },
     {
         "date": "1463522400000",
@@ -3426,10 +3426,10 @@ const picks = [
         "pick": "PHI+1.5+DET",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 2,
+        "odd": 2.55,
         "result": "W",
-        "bookie": "1,55",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463522400000",
@@ -3439,10 +3439,10 @@ const picks = [
         "pick": "KC O3.5+OAK",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.91,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463522400000",
@@ -3454,8 +3454,8 @@ const picks = [
         "stake": 1,
         "odd": 2,
         "result": "L",
-        "bookie": "-1",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Javier"
     },
     {
         "date": "1463608800000",
@@ -3465,10 +3465,10 @@ const picks = [
         "pick": "SW O4SO",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 1,
+        "odd": 1.91,
         "result": "W",
-        "bookie": "0,91",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Ana"
     },
     {
         "date": "1463522400000",
@@ -3478,10 +3478,10 @@ const picks = [
         "pick": "WAS O3.5+CLE O4.5",
         "tipster": "PicksWar",
         "stake": 2,
-        "odd": 3,
+        "odd": 3.43,
         "result": "W",
-        "bookie": "2,43",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Pedro"
     },
     {
         "date": "1463608800000",
@@ -3491,10 +3491,10 @@ const picks = [
         "pick": "Carrera 4: PIT",
         "tipster": "AllCapper",
         "stake": 1,
-        "odd": 2,
+        "odd": 2.15,
         "result": "L",
-        "bookie": "-1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463608800000",
@@ -3504,10 +3504,10 @@ const picks = [
         "pick": "OKC +9.0",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.86,
         "result": "L",
-        "bookie": "-2",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463608800000",
@@ -3517,10 +3517,10 @@ const picks = [
         "pick": "U224.0",
         "tipster": "Txomin",
         "stake": 2,
-        "odd": 1,
+        "odd": 1.9,
         "result": "W",
-        "bookie": "1,8",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     },
     {
         "date": "1463608800000",
@@ -3529,11 +3529,11 @@ const picks = [
         "match": "Souza-Anderson",
         "pick": "Anderson",
         "tipster": "ATPPicks",
-        "stake": 2,
-        "odd": 1,
+        "stake": 2.5,
+        "odd": 1.91,
         "result": "L",
-        "bookie": "-1,25",
-        "author": "WH"
+        "bookie": "WH",
+        "author": "Pedro"
     },
     {
         "date": "1463608800000",
@@ -3545,8 +3545,8 @@ const picks = [
         "stake": 2,
         "odd": 2,
         "result": "W",
-        "bookie": "1",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Jesus"
     },
     {
         "date": "1463608800000",
@@ -3556,10 +3556,10 @@ const picks = [
         "pick": "CHI+BAL-SEA U9.0",
         "tipster": "PicksWar",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.77,
         "result": "L",
-        "bookie": "-1,5",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Javier"
     },
     {
         "date": "1463695200000",
@@ -3569,10 +3569,10 @@ const picks = [
         "pick": "Cilic",
         "tipster": "ATPPicks",
         "stake": 3,
-        "odd": 2,
+        "odd": 2.2,
         "result": "W",
-        "bookie": "1,8",
-        "author": "Bet365"
+        "bookie": "Bet365",
+        "author": "Ana"
     }
 ]
 
