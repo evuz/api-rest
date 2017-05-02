@@ -11,7 +11,18 @@ const UserSchema = new Schema({
     avatar: String,
     password: String,
     signUpDate: { type: Date, default: Date.now() },
-    lastLogin: Date
+    lastLogin: Date,
+    totalPicks:  { type: Number, default: 0 },
+    totalProfit: { type: Number, default: 0 },
+    avgStake: { type: Number, default: 0 },
+    avgOdd: { type: Number, default: 0 },
+    months: [new Schema({
+        id: String,
+        totalPicks: Number,
+        totalProfit: Number,
+        avgOdd: Number,
+        avgStake: Number
+    })]
 });
 
 UserSchema.pre('save', function (next) {
@@ -28,7 +39,7 @@ UserSchema.pre('save', function (next) {
     })
 });
 
-UserSchema.methods.validPassword = function(password) {
+UserSchema.methods.validPassword = function (password) {
     let user = this;
     return bcrypt.compareSync(password, user.password);
 }
