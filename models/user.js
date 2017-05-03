@@ -15,13 +15,14 @@ const UserSchema = new Schema({
     totalPicks:  { type: Number, default: 0 },
     totalProfit: { type: Number, default: 0 },
     avgStake: { type: Number, default: 0 },
+    yield: { type: Number, default: 0 },
     avgOdd: { type: Number, default: 0 },
     months: [new Schema({
         id: String,
-        totalPicks: Number,
-        totalProfit: Number,
-        avgOdd: Number,
-        avgStake: Number
+        totalPicks: { type: Number, default: 0 },
+        totalProfit: { type: Number, default: 0 },
+        avgOdd: { type: Number, default: 0 },
+        avgStake: { type: Number, default: 0 }
     })]
 });
 
