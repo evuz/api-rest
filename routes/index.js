@@ -13,6 +13,7 @@ api.put('/field/:fieldId', FieldCtrl.updateField);
 api.delete('/field/:fieldId', FieldCtrl.deleteField);
 api.post('/signup', UserCtrl.signUp);
 api.post('/signin', UserCtrl.signIn);
+api.get('/signin', isAuth, UserCtrl.validateToken);
 api.get('/private', isAuth, function (req, res) {
     res.status(200).send({ message: 'Tienes acceso' });
 });
