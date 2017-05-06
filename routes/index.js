@@ -1,16 +1,12 @@
 'use strict'
 
 const express = require('express');
-const FieldCtrl = require('../controllers/field')
+const PickCtrl = require('../controllers/pick')
 const UserCtrl = require('../controllers/user');
 const { isAuth } = require('../middlewares/auth');
 const api = express.Router();
 
-api.get('/field', isAuth, FieldCtrl.getFields);
-api.get('/field/:fieldId', FieldCtrl.getField);
-api.post('/field', FieldCtrl.saveField);
-api.put('/field/:fieldId', FieldCtrl.updateField);
-api.delete('/field/:fieldId', FieldCtrl.deleteField);
+api.get('/userstats', isAuth, PickCtrl.getUserStats);
 api.post('/signup', UserCtrl.signUp);
 api.post('/signin', UserCtrl.signIn);
 api.get('/signin', isAuth, UserCtrl.validateToken);
