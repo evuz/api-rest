@@ -10,7 +10,7 @@ const picks = [
         "odd": 2.05,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1459461600000",
@@ -23,7 +23,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Paf",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1459461600000",
@@ -36,7 +36,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Paf",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1459461600000",
@@ -49,7 +49,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1459548000000",
@@ -62,7 +62,7 @@ const picks = [
         "odd": 1.8,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1459548000000",
@@ -75,7 +75,7 @@ const picks = [
         "odd": 1.95,
         "result": "V",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1459548000000",
@@ -88,7 +88,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1459634400000",
@@ -101,7 +101,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1459634400000",
@@ -114,7 +114,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1459634400000",
@@ -127,7 +127,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1459807200000",
@@ -140,7 +140,7 @@ const picks = [
         "odd": 1.8,
         "result": "V",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1459893600000",
@@ -153,7 +153,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1459893600000",
@@ -166,7 +166,7 @@ const picks = [
         "odd": 1.75,
         "result": "W",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1459893600000",
@@ -179,7 +179,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1459893600000",
@@ -192,7 +192,7 @@ const picks = [
         "odd": 1.8,
         "result": "W",
         "bookie": "Paf",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1459893600000",
@@ -205,7 +205,7 @@ const picks = [
         "odd": 1.65,
         "result": "W",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1459893600000",
@@ -218,7 +218,7 @@ const picks = [
         "odd": 2.03,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1459893600000",
@@ -231,7 +231,7 @@ const picks = [
         "odd": 3,
         "result": "L",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1459980000000",
@@ -244,7 +244,7 @@ const picks = [
         "odd": 1.85,
         "result": "V",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1459980000000",
@@ -257,7 +257,7 @@ const picks = [
         "odd": 1.95,
         "result": "V",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1459980000000",
@@ -270,7 +270,7 @@ const picks = [
         "odd": 1.75,
         "result": "L",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1459980000000",
@@ -283,7 +283,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1459980000000",
@@ -296,7 +296,7 @@ const picks = [
         "odd": 2.05,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1459980000000",
@@ -309,7 +309,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1459980000000",
@@ -322,7 +322,7 @@ const picks = [
         "odd": 1.75,
         "result": "L",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1459980000000",
@@ -335,7 +335,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1459980000000",
@@ -348,7 +348,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460066400000",
@@ -361,7 +361,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460066400000",
@@ -374,7 +374,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460066400000",
@@ -387,7 +387,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Paf",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460066400000",
@@ -400,7 +400,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460066400000",
@@ -413,7 +413,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460152800000",
@@ -426,7 +426,7 @@ const picks = [
         "odd": 2.05,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460152800000",
@@ -439,7 +439,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460152800000",
@@ -452,7 +452,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460152800000",
@@ -465,7 +465,7 @@ const picks = [
         "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460152800000",
@@ -478,7 +478,7 @@ const picks = [
         "odd": 1.77,
         "result": "W",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460152800000",
@@ -491,7 +491,7 @@ const picks = [
         "odd": 1.85,
         "result": "V",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460152800000",
@@ -504,7 +504,7 @@ const picks = [
         "odd": 1.57,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460152800000",
@@ -517,7 +517,7 @@ const picks = [
         "odd": 1.5,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460152800000",
@@ -530,7 +530,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460152800000",
@@ -543,7 +543,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460152800000",
@@ -556,7 +556,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460152800000",
@@ -569,7 +569,7 @@ const picks = [
         "odd": 2.07,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460239200000",
@@ -582,7 +582,7 @@ const picks = [
         "odd": 1.88,
         "result": "W",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460152800000",
@@ -595,7 +595,7 @@ const picks = [
         "odd": 3.25,
         "result": "L",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460239200000",
@@ -608,7 +608,7 @@ const picks = [
         "odd": 1.84,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460239200000",
@@ -621,7 +621,7 @@ const picks = [
         "odd": 1.72,
         "result": "W",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460239200000",
@@ -634,7 +634,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460239200000",
@@ -647,7 +647,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460239200000",
@@ -660,7 +660,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460239200000",
@@ -673,7 +673,7 @@ const picks = [
         "odd": 2.1,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460239200000",
@@ -686,7 +686,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460239200000",
@@ -699,7 +699,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460325600000",
@@ -712,7 +712,7 @@ const picks = [
         "odd": 1.65,
         "result": "W",
         "bookie": "Paf",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460325600000",
@@ -725,7 +725,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460325600000",
@@ -738,7 +738,7 @@ const picks = [
         "odd": 1.7,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460325600000",
@@ -751,7 +751,7 @@ const picks = [
         "odd": 2.02,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460584800000",
@@ -764,7 +764,7 @@ const picks = [
         "odd": 2.11,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460584800000",
@@ -777,7 +777,7 @@ const picks = [
         "odd": 2.05,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460757600000",
@@ -790,7 +790,7 @@ const picks = [
         "odd": 2.98,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460757600000",
@@ -803,7 +803,7 @@ const picks = [
         "odd": 3.51,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460757600000",
@@ -816,7 +816,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460757600000",
@@ -829,7 +829,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460844000000",
@@ -842,7 +842,7 @@ const picks = [
         "odd": 1.95,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460757600000",
@@ -855,7 +855,7 @@ const picks = [
         "odd": 1.82,
         "result": "W",
         "bookie": "Paf",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460844000000",
@@ -868,7 +868,7 @@ const picks = [
         "odd": 2.62,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460844000000",
@@ -881,7 +881,7 @@ const picks = [
         "odd": 1.8,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1460757600000",
@@ -894,7 +894,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1460844000000",
@@ -907,7 +907,7 @@ const picks = [
         "odd": 1.92,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1460844000000",
@@ -920,7 +920,7 @@ const picks = [
         "odd": 1.74,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1460844000000",
@@ -933,7 +933,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461016800000",
@@ -946,7 +946,7 @@ const picks = [
         "odd": 1.77,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461016800000",
@@ -959,7 +959,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461016800000",
@@ -972,7 +972,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461016800000",
@@ -985,7 +985,7 @@ const picks = [
         "odd": 2.93,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461103200000",
@@ -998,7 +998,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461448800000",
@@ -1011,7 +1011,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461189600000",
@@ -1024,7 +1024,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461276000000",
@@ -1037,7 +1037,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461276000000",
@@ -1050,7 +1050,7 @@ const picks = [
         "odd": 5.5,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461276000000",
@@ -1063,7 +1063,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461362400000",
@@ -1076,7 +1076,7 @@ const picks = [
         "odd": 2.35,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461362400000",
@@ -1089,7 +1089,7 @@ const picks = [
         "odd": 2.19,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461362400000",
@@ -1102,7 +1102,7 @@ const picks = [
         "odd": 3,
         "result": "W",
         "bookie": "WH",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461362400000",
@@ -1115,7 +1115,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461362400000",
@@ -1128,7 +1128,7 @@ const picks = [
         "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461362400000",
@@ -1141,7 +1141,7 @@ const picks = [
         "odd": 1.75,
         "result": "W",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461362400000",
@@ -1154,7 +1154,7 @@ const picks = [
         "odd": 1.8,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461621600000",
@@ -1167,7 +1167,7 @@ const picks = [
         "odd": 1.78,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461708000000",
@@ -1180,7 +1180,7 @@ const picks = [
         "odd": 2.03,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461967200000",
@@ -1193,7 +1193,7 @@ const picks = [
         "odd": 2,
         "result": "V",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461708000000",
@@ -1206,7 +1206,7 @@ const picks = [
         "odd": 2.03,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461708000000",
@@ -1219,7 +1219,7 @@ const picks = [
         "odd": 1.88,
         "result": "V",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461708000000",
@@ -1232,7 +1232,7 @@ const picks = [
         "odd": 2.5,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461794400000",
@@ -1245,7 +1245,7 @@ const picks = [
         "odd": 1.86,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461794400000",
@@ -1258,7 +1258,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461708000000",
@@ -1271,7 +1271,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461794400000",
@@ -1284,7 +1284,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461794400000",
@@ -1297,7 +1297,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461794400000",
@@ -1310,7 +1310,7 @@ const picks = [
         "odd": 1.85,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461794400000",
@@ -1323,7 +1323,7 @@ const picks = [
         "odd": 2.2,
         "result": "W",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461794400000",
@@ -1336,7 +1336,7 @@ const picks = [
         "odd": 1.66,
         "result": "L",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461880800000",
@@ -1349,7 +1349,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461880800000",
@@ -1362,7 +1362,7 @@ const picks = [
         "odd": 1.83,
         "result": "V",
         "bookie": "WH",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461880800000",
@@ -1375,7 +1375,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461967200000",
@@ -1388,7 +1388,7 @@ const picks = [
         "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461967200000",
@@ -1401,7 +1401,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1461967200000",
@@ -1414,7 +1414,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "WH",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1461967200000",
@@ -1427,7 +1427,7 @@ const picks = [
         "odd": 2.37,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1461967200000",
@@ -1440,7 +1440,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1461967200000",
@@ -1453,7 +1453,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462053600000",
@@ -1466,7 +1466,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462053600000",
@@ -1479,7 +1479,7 @@ const picks = [
         "odd": 2.08,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462053600000",
@@ -1492,7 +1492,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462053600000",
@@ -1505,7 +1505,7 @@ const picks = [
         "odd": 2.13,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462140000000",
@@ -1518,7 +1518,7 @@ const picks = [
         "odd": 2.2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462140000000",
@@ -1531,7 +1531,7 @@ const picks = [
         "odd": 1.8,
         "result": "W",
         "bookie": "Kirolbet",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462140000000",
@@ -1544,7 +1544,7 @@ const picks = [
         "odd": 5.65,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462053600000",
@@ -1557,7 +1557,7 @@ const picks = [
         "odd": 2.75,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462053600000",
@@ -1570,7 +1570,7 @@ const picks = [
         "odd": 2.3,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462053600000",
@@ -1583,7 +1583,7 @@ const picks = [
         "odd": 3.06,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462140000000",
@@ -1596,7 +1596,7 @@ const picks = [
         "odd": 1.72,
         "result": "L",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462226400000",
@@ -1609,7 +1609,7 @@ const picks = [
         "odd": 1.96,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462226400000",
@@ -1622,7 +1622,7 @@ const picks = [
         "odd": 2.05,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462226400000",
@@ -1635,7 +1635,7 @@ const picks = [
         "odd": 2.1,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462226400000",
@@ -1648,7 +1648,7 @@ const picks = [
         "odd": 2.49,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462226400000",
@@ -1661,7 +1661,7 @@ const picks = [
         "odd": 2.2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462226400000",
@@ -1674,7 +1674,7 @@ const picks = [
         "odd": 3.22,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462226400000",
@@ -1687,7 +1687,7 @@ const picks = [
         "odd": 1.63,
         "result": "W",
         "bookie": "Paf",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462226400000",
@@ -1700,7 +1700,7 @@ const picks = [
         "odd": 2.2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462226400000",
@@ -1713,7 +1713,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462572000000",
@@ -1726,7 +1726,7 @@ const picks = [
         "odd": 2.12,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462572000000",
@@ -1739,7 +1739,7 @@ const picks = [
         "odd": 2.25,
         "result": "V",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462312800000",
@@ -1752,7 +1752,7 @@ const picks = [
         "odd": 1.97,
         "result": "L",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462312800000",
@@ -1765,7 +1765,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462312800000",
@@ -1778,7 +1778,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "WH",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462312800000",
@@ -1791,7 +1791,7 @@ const picks = [
         "odd": 2.15,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462312800000",
@@ -1804,7 +1804,7 @@ const picks = [
         "odd": 2.25,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462312800000",
@@ -1817,7 +1817,7 @@ const picks = [
         "odd": 2.72,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462399200000",
@@ -1830,7 +1830,7 @@ const picks = [
         "odd": 2.45,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462399200000",
@@ -1843,7 +1843,7 @@ const picks = [
         "odd": 3.69,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462399200000",
@@ -1856,7 +1856,7 @@ const picks = [
         "odd": 2.05,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462399200000",
@@ -1869,7 +1869,7 @@ const picks = [
         "odd": 2.86,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462312800000",
@@ -1882,7 +1882,7 @@ const picks = [
         "odd": 1.72,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462312800000",
@@ -1895,7 +1895,7 @@ const picks = [
         "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462399200000",
@@ -1908,7 +1908,7 @@ const picks = [
         "odd": 1.73,
         "result": "W",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462485600000",
@@ -1921,7 +1921,7 @@ const picks = [
         "odd": 2.05,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462485600000",
@@ -1934,7 +1934,7 @@ const picks = [
         "odd": 3.21,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462485600000",
@@ -1947,7 +1947,7 @@ const picks = [
         "odd": 3.28,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462485600000",
@@ -1960,7 +1960,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462485600000",
@@ -1973,7 +1973,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462485600000",
@@ -1986,7 +1986,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462485600000",
@@ -1999,7 +1999,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462485600000",
@@ -2012,7 +2012,7 @@ const picks = [
         "odd": 3.64,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462572000000",
@@ -2025,7 +2025,7 @@ const picks = [
         "odd": 3.21,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462572000000",
@@ -2038,7 +2038,7 @@ const picks = [
         "odd": 2.55,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462572000000",
@@ -2051,7 +2051,7 @@ const picks = [
         "odd": 2.05,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462572000000",
@@ -2064,7 +2064,7 @@ const picks = [
         "odd": 3.03,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462572000000",
@@ -2077,7 +2077,7 @@ const picks = [
         "odd": 1.72,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462658400000",
@@ -2090,7 +2090,7 @@ const picks = [
         "odd": 2.45,
         "result": "W",
         "bookie": "WH",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462658400000",
@@ -2103,7 +2103,7 @@ const picks = [
         "odd": 3.64,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462572000000",
@@ -2116,7 +2116,7 @@ const picks = [
         "odd": 3.21,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462572000000",
@@ -2129,7 +2129,7 @@ const picks = [
         "odd": 2.3,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462572000000",
@@ -2142,7 +2142,7 @@ const picks = [
         "odd": 2.2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462658400000",
@@ -2155,7 +2155,7 @@ const picks = [
         "odd": 6,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462658400000",
@@ -2168,7 +2168,7 @@ const picks = [
         "odd": 1.8,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462658400000",
@@ -2181,7 +2181,7 @@ const picks = [
         "odd": 3.25,
         "result": "L",
         "bookie": "Paf",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462658400000",
@@ -2194,7 +2194,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462658400000",
@@ -2207,7 +2207,7 @@ const picks = [
         "odd": 3.2,
         "result": "W",
         "bookie": "Paf",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462658400000",
@@ -2220,7 +2220,7 @@ const picks = [
         "odd": 2.4,
         "result": "W",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462658400000",
@@ -2233,7 +2233,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462658400000",
@@ -2246,7 +2246,7 @@ const picks = [
         "odd": 3.74,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462658400000",
@@ -2259,7 +2259,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462658400000",
@@ -2272,7 +2272,7 @@ const picks = [
         "odd": 2.25,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462658400000",
@@ -2285,7 +2285,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462658400000",
@@ -2298,7 +2298,7 @@ const picks = [
         "odd": 2.5,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462658400000",
@@ -2311,7 +2311,7 @@ const picks = [
         "odd": 2.91,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462658400000",
@@ -2324,7 +2324,7 @@ const picks = [
         "odd": 2.05,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462658400000",
@@ -2337,7 +2337,7 @@ const picks = [
         "odd": 3.63,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462658400000",
@@ -2350,7 +2350,7 @@ const picks = [
         "odd": 3.3,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462658400000",
@@ -2363,7 +2363,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462744800000",
@@ -2376,7 +2376,7 @@ const picks = [
         "odd": 1.95,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462744800000",
@@ -2389,7 +2389,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462744800000",
@@ -2402,7 +2402,7 @@ const picks = [
         "odd": 1.75,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462831200000",
@@ -2415,7 +2415,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462831200000",
@@ -2428,7 +2428,7 @@ const picks = [
         "odd": 2.84,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462831200000",
@@ -2441,7 +2441,7 @@ const picks = [
         "odd": 3.34,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462831200000",
@@ -2454,7 +2454,7 @@ const picks = [
         "odd": 3.31,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462831200000",
@@ -2467,7 +2467,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462831200000",
@@ -2480,7 +2480,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462831200000",
@@ -2493,7 +2493,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462831200000",
@@ -2506,7 +2506,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462831200000",
@@ -2519,7 +2519,7 @@ const picks = [
         "odd": 2.1,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462831200000",
@@ -2532,7 +2532,7 @@ const picks = [
         "odd": 1.95,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463263200000",
@@ -2545,7 +2545,7 @@ const picks = [
         "odd": 2.08,
         "result": "W",
         "bookie": "Paf",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462917600000",
@@ -2558,7 +2558,7 @@ const picks = [
         "odd": 1.71,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463176800000",
@@ -2571,7 +2571,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Kirolbet",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462917600000",
@@ -2584,7 +2584,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462917600000",
@@ -2597,7 +2597,7 @@ const picks = [
         "odd": 1.85,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462917600000",
@@ -2610,7 +2610,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462917600000",
@@ -2623,7 +2623,7 @@ const picks = [
         "odd": 2.7,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462917600000",
@@ -2636,7 +2636,7 @@ const picks = [
         "odd": 2.25,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462917600000",
@@ -2649,7 +2649,7 @@ const picks = [
         "odd": 3.22,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462917600000",
@@ -2662,7 +2662,7 @@ const picks = [
         "odd": 1.95,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1462917600000",
@@ -2675,7 +2675,7 @@ const picks = [
         "odd": 1.72,
         "result": "W",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1462917600000",
@@ -2688,7 +2688,7 @@ const picks = [
         "odd": 1.72,
         "result": "W",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1462917600000",
@@ -2701,7 +2701,7 @@ const picks = [
         "odd": 1.95,
         "result": "W",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1462917600000",
@@ -2714,7 +2714,7 @@ const picks = [
         "odd": 1.87,
         "result": "W",
         "bookie": "WH",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463004000000",
@@ -2727,7 +2727,7 @@ const picks = [
         "odd": 1.97,
         "result": "L",
         "bookie": "Paf",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463004000000",
@@ -2740,7 +2740,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463004000000",
@@ -2753,7 +2753,7 @@ const picks = [
         "odd": 1.95,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463004000000",
@@ -2766,7 +2766,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463004000000",
@@ -2779,7 +2779,7 @@ const picks = [
         "odd": 2.37,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463090400000",
@@ -2792,7 +2792,7 @@ const picks = [
         "odd": 3.24,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463090400000",
@@ -2805,7 +2805,7 @@ const picks = [
         "odd": 2.95,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463090400000",
@@ -2818,7 +2818,7 @@ const picks = [
         "odd": 1.91,
         "result": "V",
         "bookie": "WH",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463090400000",
@@ -2831,7 +2831,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463090400000",
@@ -2844,7 +2844,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463090400000",
@@ -2857,7 +2857,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463090400000",
@@ -2870,7 +2870,7 @@ const picks = [
         "odd": 1.8,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463090400000",
@@ -2883,7 +2883,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463176800000",
@@ -2896,7 +2896,7 @@ const picks = [
         "odd": 2.46,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463176800000",
@@ -2909,7 +2909,7 @@ const picks = [
         "odd": 2.5,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463176800000",
@@ -2922,7 +2922,7 @@ const picks = [
         "odd": 2.6,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463263200000",
@@ -2935,7 +2935,7 @@ const picks = [
         "odd": 1.53,
         "result": "W",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463176800000",
@@ -2948,7 +2948,7 @@ const picks = [
         "odd": 1.91,
         "result": "W",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463176800000",
@@ -2961,7 +2961,7 @@ const picks = [
         "odd": 2.5,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463263200000",
@@ -2974,7 +2974,7 @@ const picks = [
         "odd": 2.1,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463263200000",
@@ -2987,7 +2987,7 @@ const picks = [
         "odd": 1.7,
         "result": "W",
         "bookie": "Paf",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463263200000",
@@ -3000,7 +3000,7 @@ const picks = [
         "odd": 6.62,
         "result": "L",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463263200000",
@@ -3013,7 +3013,7 @@ const picks = [
         "odd": 3.16,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463176800000",
@@ -3026,7 +3026,7 @@ const picks = [
         "odd": 2.15,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463263200000",
@@ -3039,7 +3039,7 @@ const picks = [
         "odd": 3.24,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463263200000",
@@ -3052,7 +3052,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463263200000",
@@ -3065,7 +3065,7 @@ const picks = [
         "odd": 2.92,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463263200000",
@@ -3078,7 +3078,7 @@ const picks = [
         "odd": 2.45,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463263200000",
@@ -3091,7 +3091,7 @@ const picks = [
         "odd": 2.74,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463263200000",
@@ -3104,7 +3104,7 @@ const picks = [
         "odd": 1.72,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463349600000",
@@ -3117,7 +3117,7 @@ const picks = [
         "odd": 1.91,
         "result": "W",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463263200000",
@@ -3130,7 +3130,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463436000000",
@@ -3143,7 +3143,7 @@ const picks = [
         "odd": 3.14,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463349600000",
@@ -3156,7 +3156,7 @@ const picks = [
         "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463436000000",
@@ -3169,7 +3169,7 @@ const picks = [
         "odd": 2.71,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1464645600000",
@@ -3182,7 +3182,7 @@ const picks = [
         "odd": 1.75,
         "result": "W",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463436000000",
@@ -3195,7 +3195,7 @@ const picks = [
         "odd": 1.95,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463436000000",
@@ -3208,7 +3208,7 @@ const picks = [
         "odd": 1.71,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463436000000",
@@ -3221,7 +3221,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Betfair",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1464645600000",
@@ -3234,7 +3234,7 @@ const picks = [
         "odd": 1.65,
         "result": "W",
         "bookie": "Paf",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463436000000",
@@ -3247,7 +3247,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463436000000",
@@ -3260,7 +3260,7 @@ const picks = [
         "odd": 2.5,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463522400000",
@@ -3273,7 +3273,7 @@ const picks = [
         "odd": 2.76,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463522400000",
@@ -3286,7 +3286,7 @@ const picks = [
         "odd": 3.02,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463522400000",
@@ -3299,7 +3299,7 @@ const picks = [
         "odd": 2.25,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463522400000",
@@ -3312,7 +3312,7 @@ const picks = [
         "odd": 1.95,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463522400000",
@@ -3325,7 +3325,7 @@ const picks = [
         "odd": 2.6,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463522400000",
@@ -3338,7 +3338,7 @@ const picks = [
         "odd": 1.9,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463522400000",
@@ -3351,7 +3351,7 @@ const picks = [
         "odd": 1.8,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463522400000",
@@ -3364,7 +3364,7 @@ const picks = [
         "odd": 1.75,
         "result": "L",
         "bookie": "Betfair",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463522400000",
@@ -3377,7 +3377,7 @@ const picks = [
         "odd": 2.75,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463522400000",
@@ -3390,7 +3390,7 @@ const picks = [
         "odd": 1.83,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463522400000",
@@ -3403,7 +3403,7 @@ const picks = [
         "odd": 1.83,
         "result": "L",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463522400000",
@@ -3416,7 +3416,7 @@ const picks = [
         "odd": 2.3,
         "result": "W",
         "bookie": "Paf",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463522400000",
@@ -3429,7 +3429,7 @@ const picks = [
         "odd": 2.55,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463522400000",
@@ -3442,7 +3442,7 @@ const picks = [
         "odd": 2.91,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463522400000",
@@ -3455,7 +3455,7 @@ const picks = [
         "odd": 2,
         "result": "L",
         "bookie": "WH",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463608800000",
@@ -3468,7 +3468,7 @@ const picks = [
         "odd": 1.91,
         "result": "W",
         "bookie": "WH",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463522400000",
@@ -3481,7 +3481,7 @@ const picks = [
         "odd": 3.43,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463608800000",
@@ -3494,7 +3494,7 @@ const picks = [
         "odd": 2.15,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463608800000",
@@ -3507,7 +3507,7 @@ const picks = [
         "odd": 1.86,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463608800000",
@@ -3520,7 +3520,7 @@ const picks = [
         "odd": 1.9,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     },
     {
         "date": "1463608800000",
@@ -3533,7 +3533,7 @@ const picks = [
         "odd": 1.91,
         "result": "L",
         "bookie": "WH",
-        "author": "Pedro"
+        "author": "590d8a372ae90f0ac29790b3"
     },
     {
         "date": "1463608800000",
@@ -3546,7 +3546,7 @@ const picks = [
         "odd": 2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Jesus"
+        "author": "590d8a372ae90f0ac29790b8"
     },
     {
         "date": "1463608800000",
@@ -3559,7 +3559,7 @@ const picks = [
         "odd": 2.77,
         "result": "L",
         "bookie": "Bet365",
-        "author": "Javier"
+        "author": "590d8a372ae90f0ac29790b9"
     },
     {
         "date": "1463695200000",
@@ -3572,7 +3572,7 @@ const picks = [
         "odd": 2.2,
         "result": "W",
         "bookie": "Bet365",
-        "author": "Ana"
+        "author": "590d8a372ae90f0ac29790b2"
     }
 ]
 

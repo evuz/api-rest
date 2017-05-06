@@ -2,6 +2,7 @@
 
 const Pick = require('../models/pick');
 const User = require('../models/user');
+const { Types: { ObjectId } } = require('mongoose');
 
 function initMocks() {
     Pick.find({}, (err, picks) => {
@@ -23,14 +24,15 @@ function verifyUsers() {
             const mockUsers = require('./mocks/users');
 
             mockUsers.forEach(mockUser => {
-                createUser(mockUser)
-                    .then(newData => {
-                        mockUser = Object.assign({}, mockUser, newData);
-                        const user = new User(mockUser);
-                        user.save(err => {
-                            if (err) throw err
+                mockUser._id = new ObjectId(mockUser._id);
+                    createUser(mockUser)
+                        .then(newData => {
+                            mockUser = Object.assign({}, mockUser, newData);
+                            const user = new User(mockUser);
+                            user.save(err => {
+                                if (err) throw err
+                            })
                         })
-                    })
             })
         }
     })
@@ -49,7 +51,7 @@ function createUser(user) {
                 const monthId = createMonthId(date);
 
                 const key = months.findIndex(month => {
-                    
+
                     return month.id == monthId;
                 })
                 if (key > -1) {
