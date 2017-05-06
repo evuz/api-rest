@@ -17,7 +17,7 @@ const UserSchema = new Schema({
     avgStake: { type: Number, default: 0 },
     yield: { type: Number, default: 0 },
     avgOdd: { type: Number, default: 0 },
-    months: [new Schema({
+    statsByMonths: [new Schema({
         id: String,
         totalPicks: { type: Number, default: 0 },
         totalProfit: { type: Number, default: 0 },

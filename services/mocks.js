@@ -40,7 +40,7 @@ function verifyUsers() {
 
 function createUser(user) {
     const deferred = new Promise((resolve, reject) => {
-        Pick.find({ author: user.displayName }, (err, picks) => {
+        Pick.find({ author: user._id }, (err, picks) => {
             let totalPicks = 0;
             let totalProfit = 0;
             let avgStake = 0;
@@ -87,7 +87,7 @@ function createUser(user) {
                 avgStake,
                 totalPicks,
                 totalProfit,
-                months
+                statsByMonths: months
             })
         })
     })
@@ -101,7 +101,7 @@ function calculateProfit(result, stake, odd) {
 function createMonthId(date) {
     const dateId = new Date(date);
 
-    return dateId.getMonth() + 'm' + dateId.getFullYear() + 'y';
+    return 'm' + dateId.getMonth() + 'y' + dateId.getFullYear();
 }
 
 module.exports = {
