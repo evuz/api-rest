@@ -53,6 +53,11 @@ function signIn(req, res) {
 function validateToken(req, res) {
     const { user } = req;
     User.findById(user, (err, user) => {
+        if (!user)
+            return res.status(500).send({
+                error: 500,
+                message: 'User not found'
+            })
         const { displayName, email } = user;
         res.status(200).send({
             message: 'Tienes acceso', user: {
