@@ -25,14 +25,14 @@ function verifyUsers() {
 
             mockUsers.forEach(mockUser => {
                 mockUser._id = new ObjectId(mockUser._id);
-                    createUser(mockUser)
-                        .then(newData => {
-                            mockUser = Object.assign({}, mockUser, newData);
-                            const user = new User(mockUser);
-                            user.save(err => {
-                                if (err) throw err
-                            })
+                createUser(mockUser)
+                    .then(newData => {
+                        mockUser = Object.assign({}, mockUser, newData);
+                        const user = new User(mockUser);
+                        user.save(err => {
+                            if (err) throw err
                         })
+                    })
             })
         }
     })
@@ -41,52 +41,46 @@ function verifyUsers() {
 function createUser(user) {
     const deferred = new Promise((resolve, reject) => {
         Pick.find({ author: user._id }, (err, picks) => {
-            let totalPicks = 0;
-            let totalProfit = 0;
-            let avgStake = 0;
-            let avgOdd = 0;
             let months = [];
             picks.forEach(pick => {
                 const { result, stake, odd, date } = pick;
                 const monthId = createMonthId(date);
-
                 const key = months.findIndex(month => {
-
                     return month.id == monthId;
                 })
-                if (key > -1) {
-                    let { totalPicks, totalProfit, avgStake, avgOdd } = months[key];
 
-                    totalProfit += calculateProfit(result, stake, odd);
-                    avgStake = (avgStake * totalPicks + stake) / (totalPicks + 1);
-                    avgOdd = (avgOdd * totalPicks + odd) / (totalPicks + 1);
-                    totalPicks++;
+                if (key > -1) {
+                    let { winPicks, lostPicks, voidPicks, profits, totalStake, totalOdd } = months[key];
+                    const resultObj = calculateWinLostVoid({ winPicks, lostPicks, voidPicks }, result);
+
+                    profits += calculateProfit(result, stake, odd);
+                    totalStake += stake;
+                    totalOdd += odd;
 
                     months[key] = Object.assign({}, months[key], {
-                        totalPicks,
-                        totalProfit,
-                        avgStake,
-                        avgOdd
+                        winPicks: resultObj.winPicks,
+                        lostPicks: resultObj.lostPicks,
+                        voidPicks: resultObj.voidPicks,
+                        profits,
+                        totalStake,
+                        totalOdd
                     })
                 } else {
+                    const { winPicks, lostPicks, voidPicks } =
+                        calculateWinLostVoid({ winPicks: 0 , lostPicks: 0, voidPicks: 0 }, result);
+
                     months.push({
                         id: monthId,
-                        totalPicks: 1,
-                        avgOdd: odd,
-                        avgStake: stake,
-                        totalProfit: calculateProfit(result, stake, odd)
+                        winPicks,
+                        lostPicks,
+                        voidPicks,
+                        totalOdd: odd,
+                        totalStake: stake,
+                        profits: calculateProfit(result, stake, odd)
                     })
                 }
-                totalProfit += calculateProfit(result, stake, odd);
-                avgStake = (avgStake * totalPicks + stake) / (totalPicks + 1);
-                avgOdd = (avgOdd * totalPicks + odd) / (totalPicks + 1);
-                totalPicks++;
             })
             resolve({
-                avgOdd,
-                avgStake,
-                totalPicks,
-                totalProfit,
                 statsByMonths: months
             })
         })
@@ -98,10 +92,20 @@ function calculateProfit(result, stake, odd) {
     return (result === 'W' ? stake * odd - stake : (result === 'L' ? - stake : 0));
 }
 
-function createMonthId(date) {
-    const dateId = new Date(date);
+function calculateWinLostVoid(obj, result) {
+    let { winPicks, lostPicks, voidPicks } = obj;
+    winPicks = result == 'W' ? winPicks + 1 : winPicks;
+    lostPicks = result == 'L' ? lostPicks + 1 : lostPicks;
+    voidPicks = result == 'V' ? voidPicks + 1 : voidPicks;
 
-    return 'm' + dateId.getMonth() + 'y' + dateId.getFullYear();
+    return { winPicks, lostPicks, voidPicks }
+}
+
+function createMonthId(time) {
+    const date = new Date(time);
+    const dateId = new Date(date.getFullYear(), date.getMonth());
+
+    return dateId.getTime();
 }
 
 module.exports = {

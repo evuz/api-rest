@@ -12,17 +12,14 @@ const UserSchema = new Schema({
     password: String,
     signUpDate: { type: Date, default: Date.now() },
     lastLogin: Date,
-    totalPicks:  { type: Number, default: 0 },
-    totalProfit: { type: Number, default: 0 },
-    avgStake: { type: Number, default: 0 },
-    yield: { type: Number, default: 0 },
-    avgOdd: { type: Number, default: 0 },
     statsByMonths: [new Schema({
         id: String,
-        totalPicks: { type: Number, default: 0 },
-        totalProfit: { type: Number, default: 0 },
-        avgOdd: { type: Number, default: 0 },
-        avgStake: { type: Number, default: 0 }
+        winPicks: { type: Number, default: 0 },
+        lostPicks: { type: Number, default: 0 },
+        voidPicks: { type: Number, default: 0 },
+        profits: { type: Number, default: 0 },
+        totalOdd: { type: Number, default: 0 },
+        totalStake: { type: Number, default: 0 }
     })]
 });
 
