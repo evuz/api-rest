@@ -10,6 +10,7 @@ const cors = require('./middlewares/cors');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors);
+app.use(express.static('public'));
 app.engine('.hbs', hbs({
     defaultLayout: 'default',
     extname: '.hbs'
@@ -18,10 +19,7 @@ app.set('view engine', '.hbs');
 
 app.use('/api', api);
 app.get('/', (req, res) => {
-    res.render('product')
-})
-app.get('/login', (req, res) => {
-    res.render('login')
-})
+    res.render('react')
+});
 
 module.exports = app;
