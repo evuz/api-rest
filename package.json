@@ -7,7 +7,8 @@
     "start": "npm run build & node index.js",
     "build": "webpack -p",
     "serve": "node index.js",
-    "tsc": "tsc",
+    "tsc:build": "tsc",
+    "tsc:watch": "tsc -w",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
