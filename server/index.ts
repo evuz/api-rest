@@ -1,7 +1,7 @@
 import * as mongoose from 'mongoose';
 import * as app from './app';
 import { initMocks } from './services/mocks';
-import * as config from './config';
+import config from './config';
 
 mongoose.connect(config.db, (err, res) => {
     if (err) {
