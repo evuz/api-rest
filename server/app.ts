@@ -1,12 +1,10 @@
-'use strict'
-
-const path = require('path');
-const express = require('express');
-const favicon = require('serve-favicon');
-const bodyParser = require('body-parser');
-const hbs = require('express-handlebars');
-const api = require('./routes');
-const cors = require('./middlewares/cors');
+import * as path from 'path';
+import * as express from 'express';
+import * as favicon from 'serve-favicon';
+import * as bodyParser from 'body-parser';
+import * as hbs from 'express-handlebars';
+import * as api from './routes';
+import * as cors from './middlewares/cors';
 
 const app = express();
 
@@ -26,4 +24,4 @@ app.get('/', (req, res) => {
     res.render('react')
 });
 
-module.exports = app;
+export default app;

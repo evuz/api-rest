@@ -1,5 +1,5 @@
 import * as mongoose from 'mongoose';
-import * as app from './app';
+import app from './app';
 import { initMocks } from './services/mocks';
 import config from './config';
 
