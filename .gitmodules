@@ -1,4 +1,4 @@
 [submodule "client"]
 	path = client
 	url = http://github.com/evuz/betguide
-	branch = feature/create_views
+	branch = develop
