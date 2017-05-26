@@ -1,8 +1,6 @@
-'use strict'
-
-const jwt = require('jwt-simple');
-const moment = require('moment');
-const config = require('../config');
+import * as jwt from 'jwt-simple';
+import * as moment from 'moment';
+import config from '../config';
 
 function createToken(user) {
     const payload = {
@@ -35,7 +33,7 @@ function decodeToken(token) {
     return decode;
 }
 
-module.exports = {
+export = {
     createToken,
     decodeToken
 }
