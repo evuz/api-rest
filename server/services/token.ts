@@ -33,7 +33,7 @@ function decodeToken(token) {
     return decode;
 }
 
-export = {
+export {
     createToken,
     decodeToken
 }

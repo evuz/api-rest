@@ -15,6 +15,6 @@ function getUserStats(req, res) {
     });
 }
 
-export = {
+export {
     getUserStats,
 }

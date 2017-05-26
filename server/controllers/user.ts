@@ -66,7 +66,7 @@ function validateToken(req, res) {
     })
 }
 
-export = {
+export {
     signIn,
     signUp,
     validateToken
