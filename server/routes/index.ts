@@ -1,9 +1,7 @@
-'use strict'
-
-const express = require('express');
-const PickCtrl = require('../controllers/pick')
-const UserCtrl = require('../controllers/user');
-const { isAuth } = require('../middlewares/auth');
+import * as express from 'express';
+import * as PickCtrl from '../controllers/pick';
+import * as UserCtrl from '../controllers/user';
+import { isAuth } from '../middlewares/auth';
 const api = express.Router();
 
 api.get('/userstats', isAuth, PickCtrl.getUserStats);
@@ -14,4 +12,4 @@ api.get('/private', isAuth, function (req, res) {
     res.status(200).send({ message: 'Tienes acceso' });
 });
 
-module.exports = api;
+export default api;
