@@ -4,7 +4,7 @@ import * as favicon from 'serve-favicon';
 import * as bodyParser from 'body-parser';
 import * as hbs from 'express-handlebars';
 import api from './routes';
-import * as cors from './middlewares/cors';
+import cors from './middlewares/cors';
 
 const app = express();
 
