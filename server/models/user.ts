@@ -1,11 +1,23 @@
-'use strict'
+import { Schema, Model, Document, model } from 'mongoose';
+import * as bcrypt from 'bcrypt-nodejs';
+import * as crypto from 'crypto';
 
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
-const bcrypt = require('bcrypt-nodejs');
-const crypto = require('crypto');
+export interface IUser {
+    email: string,
+    displayName: string,
+    avatar: string,
+    password: string,
+    signUpDate: Date,
+    lastLogin: Date,
+    statsByMonths: [{}]
+}
 
-const UserSchema = new Schema({
+export interface IUserModel extends IUser, Document {
+    validPassword(password: string): string,
+    gravatar(): string
+}
+
+const schema = new Schema({
     email: { type: String, unique: true, lowercase: true },
     displayName: String,
     avatar: String,
@@ -23,7 +35,7 @@ const UserSchema = new Schema({
     })]
 });
 
-UserSchema.pre('save', function (next) {
+schema.pre('save', function (next) {
     let user = this;
     if (!user.isModified('password')) return next();
 
@@ -37,16 +49,16 @@ UserSchema.pre('save', function (next) {
     })
 });
 
-UserSchema.methods.validPassword = function (password) {
+schema.methods.validPassword = function (password) {
     let user = this;
     return bcrypt.compareSync(password, user.password);
 }
 
-UserSchema.methods.gravatar = function () {
+schema.methods.gravatar = function () {
     if (!this.email) return `https://gravatar.com/avatar/?s=200&d=retro`;
 
     const md5 = crypto.createHash('md5').update(this.email).digest('hex');
     return `https://gravatar.com/avatar/${md5}?s=200&d=retro`
 }
 
-module.exports = mongoose.model('User', UserSchema);
+export const User: Model<IUserModel> = model<IUserModel>('User', schema);

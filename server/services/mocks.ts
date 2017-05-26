@@ -1,5 +1,5 @@
-import * as Pick from '../models/pick';
-import * as User from '../models/user';
+import { Pick } from '../models/pick';
+import { User } from '../models/user';
 import { Types } from 'mongoose';
 
 const { ObjectId } = Types;

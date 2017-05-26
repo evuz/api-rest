@@ -1,5 +1,5 @@
-import * as Pick from '../models/pick';
-import * as User from '../models/user';
+import { Pick } from '../models/pick';
+import { User } from '../models/user';
 
 function getUserStats(req, res) {
     const userId = req.user;
@@ -9,7 +9,7 @@ function getUserStats(req, res) {
             error: err
         });
 
-        res.status(200).send({ 
+        res.status(200).send({
             payload: picks.statsByMonths
         });
     });

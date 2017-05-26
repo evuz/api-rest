@@ -1,5 +1,5 @@
 import * as mongoose from 'mongoose';
-import * as User from '../models/user';
+import { User } from '../models/user';
 import * as tokenSrv from '../services/token';
 
 function signUp(req, res) {
