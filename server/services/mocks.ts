@@ -1,8 +1,8 @@
-'use strict'
+import * as Pick from '../models/pick';
+import * as User from '../models/user';
+import { Types } from 'mongoose';
 
-const Pick = require('../models/pick');
-const User = require('../models/user');
-const { Types: { ObjectId } } = require('mongoose');
+const { ObjectId } = Types;
 
 function initMocks() {
     Pick.find({}, (err, picks) => {
@@ -67,7 +67,7 @@ function createUser(user) {
                     })
                 } else {
                     const { winPicks, lostPicks, voidPicks } =
-                        calculateWinLostVoid({ winPicks: 0 , lostPicks: 0, voidPicks: 0 }, result);
+                        calculateWinLostVoid({ winPicks: 0, lostPicks: 0, voidPicks: 0 }, result);
 
                     months.push({
                         id: monthId,
@@ -108,6 +108,6 @@ function createMonthId(time) {
     return dateId.getTime();
 }
 
-module.exports = {
+export {
     initMocks
 }
