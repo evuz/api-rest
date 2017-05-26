@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build & node index.js",
+    "start": "npm run build & node dist/index.js",
     "build": "webpack -p",
-    "serve": "node index.js",
+    "serve": "node dist/index.js",
     "tsc:build": "tsc",
     "tsc:watch": "tsc -w",
     "dev": "nodemon index.js",
