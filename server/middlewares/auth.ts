@@ -1,6 +1,4 @@
-'use strict'
-
-const tokenSrv = require('../services/token');
+import * as tokenSrv from '../services/token';
 
 function isAuth(req, res, next) {
     if (!req.headers.authorization) {
@@ -20,6 +18,6 @@ function isAuth(req, res, next) {
         })
 }
 
-module.exports = {
+export {
     isAuth
 };
