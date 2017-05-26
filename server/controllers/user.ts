@@ -1,8 +1,6 @@
-'use strict'
-
-const mongoose = require('mongoose');
-const User = require('../models/user');
-const tokenSrv = require('../services/token');
+import * as mongoose from 'mongoose';
+import * as User from '../models/user';
+import * as tokenSrv from '../services/token';
 
 function signUp(req, res) {
     const { email, password, displayName } = req.body;
@@ -68,7 +66,7 @@ function validateToken(req, res) {
     })
 }
 
-module.exports = {
+export = {
     signIn,
     signUp,
     validateToken
