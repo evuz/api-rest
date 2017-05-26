@@ -1,7 +1,5 @@
-'use strict'
-
-const Pick = require('../models/pick');
-const User = require('../models/user');
+import * as Pick from '../models/pick';
+import * as User from '../models/user';
 
 function getUserStats(req, res) {
     const userId = req.user;
@@ -17,6 +15,6 @@ function getUserStats(req, res) {
     });
 }
 
-module.exports = {
+export = {
     getUserStats,
 }
