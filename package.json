@@ -9,7 +9,7 @@
     "serve": "node dist/index.js",
     "tsc:build": "tsc",
     "tsc:watch": "tsc -w",
-    "dev": "nodemon index.js",
+    "dev": "nodemon dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jesus Gómez",
