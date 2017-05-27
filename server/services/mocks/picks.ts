@@ -1,4 +1,4 @@
-const picks = [
+export const picks = [
     {
         "date": "1459461600000",
         "sport": "Baloncesto",
@@ -3575,5 +3575,3 @@ const picks = [
         "author": "590d8a372ae90f0ac29790b2"
     }
 ]
-
-module.exports = picks;

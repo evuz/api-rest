@@ -7,7 +7,7 @@ const { ObjectId } = Types;
 function initMocks() {
     Pick.find({}, (err, picks) => {
         if (picks.length === 0) {
-            const mockPicks = require('./mocks/picks');
+            const mockPicks = require('./mocks/picks').picks;
             Pick.create(mockPicks, err => {
                 if (err) throw err
                 verifyUsers();
@@ -21,8 +21,7 @@ function initMocks() {
 function verifyUsers() {
     User.find({}, (err, users) => {
         if (users.length === 0) {
-            const mockUsers = require('./mocks/users');
-
+            const mockUsers = require('./mocks/users').users;
             mockUsers.forEach(mockUser => {
                 mockUser._id = new ObjectId(mockUser._id);
                 createUser(mockUser)
