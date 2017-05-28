@@ -15,6 +15,24 @@ function getUserStats(req, res) {
     });
 }
 
+function getUserPicks (req, res) {
+    const userId = req.user;
+    const monthId = new Date(parseInt(req.params.idMonth));
+    const initDate = new Date(monthId.getFullYear(), monthId.getMonth()).getTime();
+    const endDate = new Date(monthId.getFullYear(), monthId.getMonth() + 1).getTime();
+    
+    Pick.find({
+        author: userId,
+        date: {$gte: initDate, $lt: endDate}
+    }, (err, picks) => {
+        if (err) throw err;
+        res.status(200).send({
+            payload: picks
+        })
+    });
+}
+
 export {
     getUserStats,
+    getUserPicks
 }

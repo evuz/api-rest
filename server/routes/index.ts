@@ -5,6 +5,7 @@ import { isAuth } from '../middlewares/auth';
 const api = express.Router();
 
 api.get('/userstats', isAuth, PickCtrl.getUserStats);
+api.get('/getpicks/:idMonth', isAuth, PickCtrl.getUserPicks);
 api.post('/signup', UserCtrl.signUp);
 api.post('/signin', UserCtrl.signIn);
 api.get('/signin', isAuth, UserCtrl.validateToken);
