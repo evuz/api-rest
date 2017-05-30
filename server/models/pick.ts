@@ -2,17 +2,17 @@ import { Schema, Model, Document, model } from 'mongoose';
 
 export interface IPick {
     author: string,
-    date: Date,
+    date?: Date,
     publicDate: Date,
-    sport: string,
-    competition: string,
-    match: string,
+    sport?: string,
+    competition?: string,
+    match?: string,
     pick: string,
-    tipster: string,
+    tipster?: string,
     stake: number,
     odd: number,
     result: string,
-    bookie: string,
+    bookie?: string,
 }
 
 export interface IPickModel extends IPick, Document {
@@ -30,7 +30,7 @@ const schema = new Schema({
     tipster: String,
     stake: Number,
     odd: Number,
-    result: { type: String, enum: ['W', 'V', 'L'] },
+    result: { type: String, enum: ['W', 'V', 'L', 'P'] },
     bookie: String,
 });
 
