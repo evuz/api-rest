@@ -9,8 +9,18 @@ export interface IUser {
     password: string,
     signUpDate: Date,
     lastLogin: Date,
-    statsByMonths: [{}]
+    statsByMonths: [{
+        id: number,
+        totalStake?: number,
+        totalOdd?: number,
+        profits?: number,
+        voidPicks?: number,
+        lostPicks?: number,
+        winPicks?: number
+    }]
 }
+
+
 
 export interface IUserModel extends IUser, Document {
     validPassword(password: string): string,
@@ -25,7 +35,7 @@ const schema = new Schema({
     signUpDate: { type: Date, default: Date.now() },
     lastLogin: Date,
     statsByMonths: [new Schema({
-        id: String,
+        id: Number,
         winPicks: { type: Number, default: 0 },
         lostPicks: { type: Number, default: 0 },
         voidPicks: { type: Number, default: 0 },
