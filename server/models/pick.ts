@@ -1,4 +1,5 @@
 import { Schema, Model, Document, model } from 'mongoose';
+import * as UserCtrl from '../controllers/user';
 
 export interface IPick {
     author: string,
@@ -30,7 +31,7 @@ const schema = new Schema({
     tipster: String,
     stake: Number,
     odd: Number,
-    result: { type: String, enum: ['W', 'V', 'L', 'P'] },
+    result: { type: String, enum: ['W', 'V', 'L', 'P'], default: 'P' },
     bookie: String,
 });
 
