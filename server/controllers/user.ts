@@ -66,8 +66,30 @@ function validateToken(req, res) {
     })
 }
 
+function checkNewMonth(userId: string, pickDate: number) {
+    const deferred = new Promise((resolve, reject) => {
+        User.findById(userId, (err, user) => {
+            const { statsByMonths } = user;
+            const date = new Date(pickDate);
+            const monthId = new Date(date.getFullYear(), date.getMonth()).getTime();
+            const key = statsByMonths.findIndex((month) => {
+                return month.id == monthId;
+            })
+            if (key < 0) {
+                user.statsByMonths.push({ id: monthId });
+                User.findByIdAndUpdate(user._id, user, (err, user) => {
+                    if(err) throw new Error(err);
+                    console.log(user);
+                })
+            }
+        })
+    })
+    return deferred;
+}
+
 export {
     signIn,
     signUp,
-    validateToken
+    validateToken,
+    checkNewMonth
 };
