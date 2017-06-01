@@ -78,10 +78,10 @@ function checkNewMonth(userId: string, pickDate: number) {
             if (key < 0) {
                 user.statsByMonths.push({ id: monthId });
                 User.findByIdAndUpdate(user._id, user, (err, user) => {
-                    if(err) throw new Error(err);
-                    console.log(user);
+                    if (err) throw new Error(err);
                 })
             }
+            resolve();
         })
     })
     return deferred;
