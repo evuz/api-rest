@@ -50,7 +50,7 @@ function addPick(req, res) {
     })
     pick.save((err, pick) => {
         if (err) throw new Error(err);
-        UserCtrl.checkNewMonth(pick.author, pick.date)
+        UserCtrl.checkNewMonth(pick.author, pick.date.getTime())
             .then(() => res.status(200).send({
                 message: 'Success'
             }))
