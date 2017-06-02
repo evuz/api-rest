@@ -64,6 +64,10 @@ function deletePick(req, res) {
             error: 500,
             message: err,
         });
+        if (!pick) return res.status(500).send({
+            error: 500,
+            message: 'Pick don\'t found',
+        });
         if (pick.author === user) {
             pick.remove(err => {
                 if (err) res.status(500).send({
