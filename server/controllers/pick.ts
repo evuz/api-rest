@@ -57,8 +57,32 @@ function addPick(req, res) {
     })
 }
 
+function deletePick(req, res) {
+    const { params: { idPick }, user } = req;
+    Pick.findById(idPick, (err, pick) => {
+        if (err) return res.status(500).send({
+            error: 500,
+            message: err,
+        });
+        if (pick.author === user) {
+            pick.remove(err => {
+                if (err) res.status(500).send({
+                    error: 500,
+                    message: err,
+                })
+            })
+        } else {
+            return res.status(404).send({
+                error: 404,
+                message: 'User not authorized'
+            });
+        }
+    });
+}
+
 export {
     getUserStats,
     getUserPicks,
-    addPick
+    addPick,
+    deletePick
 }

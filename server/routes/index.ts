@@ -7,6 +7,7 @@ const api = express.Router();
 api.get('/userstats', isAuth, PickCtrl.getUserStats);
 api.get('/getpicks/:idMonth', isAuth, PickCtrl.getUserPicks);
 api.post('/addPick', isAuth, PickCtrl.addPick);
+api.delete('/pick/:idPick', isAuth, PickCtrl.deletePick);
 api.post('/signup', UserCtrl.signUp);
 api.post('/signin', UserCtrl.signIn);
 api.get('/signin', isAuth, UserCtrl.validateToken);
